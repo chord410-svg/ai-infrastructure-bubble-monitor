@@ -1,0 +1,23 @@
+[
+  {
+    "calculation_as_of": "2023-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "data_period": "2022-12-31",
+    "indicator_id": "receivables_growth_gap",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2023-02-03",
+    "quality_status": [
+      "fallback_tag:capex",
+      "fallback_tag:debt_noncurrent"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    ],
+    "unit": "decimal",
+    "value": 0.016900173792739448
+  }
+]

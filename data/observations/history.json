@@ -1,0 +1,4143 @@
+[
+  {
+    "as_of": "2019-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 13779000000.0,
+        "capex_ttm_prior": 17819000000.0,
+        "cash": 31750000000.0,
+        "cash_prior": 20522000000.0,
+        "debt": 24866000000.0,
+        "debt_prior": 24843000000.0,
+        "ocf_ttm": 30723000000.0,
+        "ocf_ttm_prior": 18366000000.0,
+        "period_end": "2018-12-31",
+        "published_at": "2019-02-01",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 16677000000.0,
+        "receivables_prior": 13164000000.0,
+        "revenue_ttm": 232887000000.0,
+        "revenue_ttm_prior": 177866000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets",
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+            "PropertyPlantAndEquipmentAdditions"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 25139000000.0,
+        "capex_ttm_prior": 13184000000.0,
+        "cash": 16701000000.0,
+        "cash_prior": 10715000000.0,
+        "debt": 3950000000.0,
+        "debt_prior": 3943000000.0,
+        "ocf_ttm": 47971000000.0,
+        "ocf_ttm_prior": 37091000000.0,
+        "period_end": "2018-12-31",
+        "published_at": "2019-02-05",
+        "quality_flags": [],
+        "receivables": 20838000000.0,
+        "receivables_prior": 18336000000.0,
+        "revenue_ttm": 136819000000.0,
+        "revenue_ttm_prior": 110855000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 13915000000.0,
+        "capex_ttm_prior": 6733000000.0,
+        "cash": 10019000000.0,
+        "cash_prior": 8079000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 29274000000.0,
+        "ocf_ttm_prior": 24216000000.0,
+        "period_end": "2018-12-31",
+        "published_at": "2019-01-31",
+        "quality_flags": [],
+        "receivables": 7587000000.0,
+        "receivables_prior": 5832000000.0,
+        "revenue_ttm": 55838000000.0,
+        "revenue_ttm_prior": 40653000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 14223000000.0,
+        "capex_ttm_prior": 8696000000.0,
+        "cash": 6638000000.0,
+        "cash_prior": 12859000000.0,
+        "debt": 73169000000.0,
+        "debt_prior": 76794000000.0,
+        "ocf_ttm": 46126000000.0,
+        "ocf_ttm_prior": 41980000000.0,
+        "period_end": "2018-12-31",
+        "published_at": "2019-01-30",
+        "quality_flags": [],
+        "receivables": 19680000000.0,
+        "receivables_prior": 18428000000.0,
+        "revenue_ttm": 118459000000.0,
+        "revenue_ttm_prior": 102273000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 67056000000.0,
+      "aggregate_capex_ttm_prior": 46432000000.0,
+      "aggregate_net_debt": 36877000000.0,
+      "aggregate_net_debt_prior": 54905000000.0,
+      "aggregate_ocf_ttm": 154094000000.0,
+      "aggregate_ocf_ttm_prior": 121653000000.0,
+      "aggregate_receivables": 64782000000.0,
+      "aggregate_receivables_prior": 55760000000.0,
+      "aggregate_revenue_ttm": 544003000000.0,
+      "aggregate_revenue_ttm_prior": 431647000000.0,
+      "capex_growth": 0.4441764300482427,
+      "capex_growth_gap": 0.17750811936128885,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.26666831068695385,
+      "receivables_growth": 0.16180057388809188,
+      "receivables_growth_gap": -0.09849545504295598,
+      "revenue_growth": 0.26029602893104786,
+      "self_funding_ratio": 2.2979897399188736
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2019-05-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 13474000000.0,
+        "capex_ttm_prior": 20960000000.0,
+        "cash": 23115000000.0,
+        "cash_prior": 16676000000.0,
+        "debt": 24930000000.0,
+        "debt_prior": 24693000000.0,
+        "ocf_ttm": 34360000000.0,
+        "ocf_ttm_prior": 18194000000.0,
+        "period_end": "2019-03-31",
+        "published_at": "2019-04-26",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 15979000000.0,
+        "receivables_prior": 12026000000.0,
+        "revenue_ttm": 241545000000.0,
+        "revenue_ttm_prior": 193194000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets",
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+            "PropertyPlantAndEquipmentAdditions"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 22478000000.0,
+        "capex_ttm_prior": 17975000000.0,
+        "cash": 19148000000.0,
+        "cash_prior": 12658000000.0,
+        "debt": 3952000000.0,
+        "debt_prior": 3944000000.0,
+        "ocf_ttm": 48329000000.0,
+        "ocf_ttm_prior": 39185000000.0,
+        "period_end": "2019-03-31",
+        "published_at": "2019-04-30",
+        "quality_flags": [],
+        "receivables": 19149000000.0,
+        "receivables_prior": 16777000000.0,
+        "revenue_ttm": 142012000000.0,
+        "revenue_ttm_prior": 117251000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 14940000000.0,
+        "capex_ttm_prior": 8274000000.0,
+        "cash": 11076000000.0,
+        "cash_prior": 12082000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 30722000000.0,
+        "ocf_ttm_prior": 27018000000.0,
+        "period_end": "2019-03-31",
+        "published_at": "2019-04-25",
+        "quality_flags": [],
+        "receivables": 6475000000.0,
+        "receivables_prior": 5115000000.0,
+        "revenue_ttm": 58949000000.0,
+        "revenue_ttm_prior": 44587000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 13854000000.0,
+        "capex_ttm_prior": 9935000000.0,
+        "cash": 11212000000.0,
+        "cash_prior": 9221000000.0,
+        "debt": 73100000000.0,
+        "debt_prior": 76927000000.0,
+        "ocf_ttm": 47495000000.0,
+        "ocf_ttm_prior": 43471000000.0,
+        "period_end": "2019-03-31",
+        "published_at": "2019-04-24",
+        "quality_flags": [],
+        "receivables": 19269000000.0,
+        "receivables_prior": 17208000000.0,
+        "revenue_ttm": 122211000000.0,
+        "revenue_ttm_prior": 105880000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 64746000000.0,
+      "aggregate_capex_ttm_prior": 57144000000.0,
+      "aggregate_net_debt": 37431000000.0,
+      "aggregate_net_debt_prior": 56427000000.0,
+      "aggregate_ocf_ttm": 160906000000.0,
+      "aggregate_ocf_ttm_prior": 127868000000.0,
+      "aggregate_receivables": 60872000000.0,
+      "aggregate_receivables_prior": 51126000000.0,
+      "aggregate_revenue_ttm": 564717000000.0,
+      "aggregate_revenue_ttm_prior": 460912000000.0,
+      "capex_growth": 0.1330323393532129,
+      "capex_growth_gap": -0.1253434857163902,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.2583758250696031,
+      "receivables_growth": 0.1906270781989594,
+      "receivables_growth_gap": -0.03458944903400485,
+      "revenue_growth": 0.22521652723296426,
+      "self_funding_ratio": 2.4851882741791
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2019-08-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 13938000000.0,
+        "capex_ttm_prior": 13034000000.0,
+        "cash": 22616000000.0,
+        "cash_prior": 19823000000.0,
+        "debt": 24965000000.0,
+        "debt_prior": 24669000000.0,
+        "ocf_ttm": 36029000000.0,
+        "ocf_ttm_prior": 21793000000.0,
+        "period_end": "2019-06-30",
+        "published_at": "2019-07-26",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 16747000000.0,
+        "receivables_prior": 12607000000.0,
+        "revenue_ttm": 252063000000.0,
+        "revenue_ttm_prior": 208125000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 23127000000.0,
+        "capex_ttm_prior": 20621000000.0,
+        "cash": 16587000000.0,
+        "cash_prior": 14148000000.0,
+        "debt": 3954000000.0,
+        "debt_prior": 3947000000.0,
+        "ocf_ttm": 50824000000.0,
+        "ocf_ttm_prior": 41914000000.0,
+        "period_end": "2019-06-30",
+        "published_at": "2019-07-26",
+        "quality_flags": [],
+        "receivables": 20965000000.0,
+        "receivables_prior": 17043000000.0,
+        "revenue_ttm": 148299000000.0,
+        "revenue_ttm_prior": 123898000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 15113000000.0,
+        "capex_ttm_prior": 10290000000.0,
+        "cash": 13877000000.0,
+        "cash_prior": 11552000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 33040000000.0,
+        "ocf_ttm_prior": 27956000000.0,
+        "period_end": "2019-06-30",
+        "published_at": "2019-07-25",
+        "quality_flags": [],
+        "receivables": 7513000000.0,
+        "receivables_prior": 5590000000.0,
+        "revenue_ttm": 62604000000.0,
+        "revenue_ttm_prior": 48497000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 13925000000.0,
+        "capex_ttm_prior": 11632000000.0,
+        "cash": 11356000000.0,
+        "cash_prior": 11946000000.0,
+        "debt": 72178000000.0,
+        "debt_prior": 76240000000.0,
+        "ocf_ttm": 52185000000.0,
+        "ocf_ttm_prior": 43884000000.0,
+        "period_end": "2019-06-30",
+        "published_at": "2019-08-01",
+        "quality_flags": [],
+        "receivables": 29524000000.0,
+        "receivables_prior": 26481000000.0,
+        "revenue_ttm": 125843000000.0,
+        "revenue_ttm_prior": 110360000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 66103000000.0,
+      "aggregate_capex_ttm_prior": 55577000000.0,
+      "aggregate_net_debt": 36661000000.0,
+      "aggregate_net_debt_prior": 48887000000.0,
+      "aggregate_ocf_ttm": 172078000000.0,
+      "aggregate_ocf_ttm_prior": 135547000000.0,
+      "aggregate_receivables": 74749000000.0,
+      "aggregate_receivables_prior": 61721000000.0,
+      "aggregate_revenue_ttm": 588809000000.0,
+      "aggregate_revenue_ttm_prior": 490880000000.0,
+      "capex_growth": 0.18939489357108164,
+      "capex_growth_gap": -0.0801130999662154,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.26950799353729704,
+      "receivables_growth": 0.21107888725069257,
+      "receivables_growth_gap": 0.011582065216794168,
+      "revenue_growth": 0.1994968220338984,
+      "self_funding_ratio": 2.6031798859355852
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2019-11-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 15283000000.0,
+        "capex_ttm_prior": 13312000000.0,
+        "cash": 23255000000.0,
+        "cash_prior": 20425000000.0,
+        "debt": 25313000000.0,
+        "debt_prior": 24728000000.0,
+        "ocf_ttm": 35333000000.0,
+        "ocf_ttm_prior": 26604000000.0,
+        "period_end": "2019-09-30",
+        "published_at": "2019-10-25",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 16887000000.0,
+        "receivables_prior": 14258000000.0,
+        "revenue_ttm": 265468000000.0,
+        "revenue_ttm_prior": 220957000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 24577000000.0,
+        "capex_ttm_prior": 22365000000.0,
+        "cash": 16032000000.0,
+        "cash_prior": 13443000000.0,
+        "debt": 3956000000.0,
+        "debt_prior": 3948000000.0,
+        "ocf_ttm": 53080000000.0,
+        "ocf_ttm_prior": 45252000000.0,
+        "period_end": "2019-09-30",
+        "published_at": "2019-10-29",
+        "quality_flags": [],
+        "receivables": 20889000000.0,
+        "receivables_prior": 17897000000.0,
+        "revenue_ttm": 155058000000.0,
+        "revenue_ttm_prior": 129866000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 15303000000.0,
+        "capex_ttm_prior": 11877000000.0,
+        "cash": 15979000000.0,
+        "cash_prior": 9637000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 34849000000.0,
+        "ocf_ttm_prior": 29327000000.0,
+        "period_end": "2019-09-30",
+        "published_at": "2019-10-31",
+        "quality_flags": [],
+        "receivables": 7673000000.0,
+        "receivables_prior": 6058000000.0,
+        "revenue_ttm": 66529000000.0,
+        "revenue_ttm_prior": 51896000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 13708000000.0,
+        "capex_ttm_prior": 13102000000.0,
+        "cash": 13117000000.0,
+        "cash_prior": 15137000000.0,
+        "debt": 69495000000.0,
+        "debt_prior": 76230000000.0,
+        "ocf_ttm": 52346000000.0,
+        "ocf_ttm_prior": 45101000000.0,
+        "period_end": "2019-09-30",
+        "published_at": "2019-10-23",
+        "quality_flags": [],
+        "receivables": 19087000000.0,
+        "receivables_prior": 17390000000.0,
+        "revenue_ttm": 129814000000.0,
+        "revenue_ttm_prior": 114906000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 68871000000.0,
+      "aggregate_capex_ttm_prior": 60656000000.0,
+      "aggregate_net_debt": 30381000000.0,
+      "aggregate_net_debt_prior": 47764000000.0,
+      "aggregate_ocf_ttm": 175608000000.0,
+      "aggregate_ocf_ttm_prior": 146284000000.0,
+      "aggregate_receivables": 64536000000.0,
+      "aggregate_receivables_prior": 55603000000.0,
+      "aggregate_revenue_ttm": 616869000000.0,
+      "aggregate_revenue_ttm_prior": 517625000000.0,
+      "capex_growth": 0.13543590081772616,
+      "capex_growth_gap": -0.0650234795656377,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.20045938038336386,
+      "receivables_growth": 0.1606567990935741,
+      "receivables_growth_gap": -0.031072734835428495,
+      "revenue_growth": 0.1917295339290026,
+      "self_funding_ratio": 2.549810515311234
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2020-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 16861000000.0,
+        "capex_ttm_prior": 13427000000.0,
+        "cash": 36092000000.0,
+        "cash_prior": 31750000000.0,
+        "debt": 24721000000.0,
+        "debt_prior": 24866000000.0,
+        "ocf_ttm": 38515000000.0,
+        "ocf_ttm_prior": 30723000000.0,
+        "period_end": "2019-12-31",
+        "published_at": "2020-01-31",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 20816000000.0,
+        "receivables_prior": 16677000000.0,
+        "revenue_ttm": 280522000000.0,
+        "revenue_ttm_prior": 232887000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 23548000000.0,
+        "capex_ttm_prior": 25139000000.0,
+        "cash": 18498000000.0,
+        "cash_prior": 16701000000.0,
+        "debt": 3958000000.0,
+        "debt_prior": 3950000000.0,
+        "ocf_ttm": 54520000000.0,
+        "ocf_ttm_prior": 47971000000.0,
+        "period_end": "2019-12-31",
+        "published_at": "2020-02-04",
+        "quality_flags": [],
+        "receivables": 25326000000.0,
+        "receivables_prior": 20838000000.0,
+        "revenue_ttm": 161857000000.0,
+        "revenue_ttm_prior": 136819000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 15102000000.0,
+        "capex_ttm_prior": 13915000000.0,
+        "cash": 19079000000.0,
+        "cash_prior": 10019000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 36314000000.0,
+        "ocf_ttm_prior": 29274000000.0,
+        "period_end": "2019-12-31",
+        "published_at": "2020-01-30",
+        "quality_flags": [],
+        "receivables": 9518000000.0,
+        "receivables_prior": 7587000000.0,
+        "revenue_ttm": 70697000000.0,
+        "revenue_ttm_prior": 55838000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 13546000000.0,
+        "capex_ttm_prior": 14223000000.0,
+        "cash": 8864000000.0,
+        "cash_prior": 6638000000.0,
+        "debt": 69608000000.0,
+        "debt_prior": 73169000000.0,
+        "ocf_ttm": 54126000000.0,
+        "ocf_ttm_prior": 46126000000.0,
+        "period_end": "2019-12-31",
+        "published_at": "2020-01-29",
+        "quality_flags": [],
+        "receivables": 23525000000.0,
+        "receivables_prior": 19680000000.0,
+        "revenue_ttm": 134249000000.0,
+        "revenue_ttm_prior": 118459000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 69057000000.0,
+      "aggregate_capex_ttm_prior": 66704000000.0,
+      "aggregate_net_debt": 15754000000.0,
+      "aggregate_net_debt_prior": 38377000000.0,
+      "aggregate_ocf_ttm": 183475000000.0,
+      "aggregate_ocf_ttm_prior": 154094000000.0,
+      "aggregate_receivables": 79185000000.0,
+      "aggregate_receivables_prior": 64782000000.0,
+      "aggregate_revenue_ttm": 647325000000.0,
+      "aggregate_revenue_ttm_prior": 544003000000.0,
+      "capex_growth": 0.03527524586231712,
+      "capex_growth_gap": -0.15539408584430348,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.1906693317066206,
+      "receivables_growth": 0.2223302769287765,
+      "receivables_growth_gap": 0.03240117727307612,
+      "revenue_growth": 0.18992909965570037,
+      "self_funding_ratio": 2.6568631710036636
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2020-05-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 20366000000.0,
+        "capex_ttm_prior": 13619000000.0,
+        "cash": 27201000000.0,
+        "cash_prior": 23115000000.0,
+        "debt": 24748000000.0,
+        "debt_prior": 24930000000.0,
+        "ocf_ttm": 39733000000.0,
+        "ocf_ttm_prior": 34360000000.0,
+        "period_end": "2020-03-31",
+        "published_at": "2020-05-01",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 17836000000.0,
+        "receivables_prior": 15979000000.0,
+        "revenue_ttm": 296274000000.0,
+        "revenue_ttm_prior": 241545000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 24915000000.0,
+        "capex_ttm_prior": 22478000000.0,
+        "cash": 19644000000.0,
+        "cash_prior": 19148000000.0,
+        "debt": 3960000000.0,
+        "debt_prior": 3952000000.0,
+        "ocf_ttm": 53971000000.0,
+        "ocf_ttm_prior": 48329000000.0,
+        "period_end": "2020-03-31",
+        "published_at": "2020-04-29",
+        "quality_flags": [],
+        "receivables": 21825000000.0,
+        "receivables_prior": 19149000000.0,
+        "revenue_ttm": 166677000000.0,
+        "revenue_ttm_prior": 142012000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 14823000000.0,
+        "capex_ttm_prior": 14940000000.0,
+        "cash": 23618000000.0,
+        "cash_prior": 11076000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 38007000000.0,
+        "ocf_ttm_prior": 30722000000.0,
+        "period_end": "2020-03-31",
+        "published_at": "2020-04-30",
+        "quality_flags": [],
+        "receivables": 7289000000.0,
+        "receivables_prior": 6475000000.0,
+        "revenue_ttm": 73357000000.0,
+        "revenue_ttm_prior": 58949000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 14748000000.0,
+        "capex_ttm_prior": 13854000000.0,
+        "cash": 11710000000.0,
+        "cash_prior": 11212000000.0,
+        "debt": 66610000000.0,
+        "debt_prior": 73100000000.0,
+        "ocf_ttm": 58110000000.0,
+        "ocf_ttm_prior": 47495000000.0,
+        "period_end": "2020-03-31",
+        "published_at": "2020-04-29",
+        "quality_flags": [],
+        "receivables": 22699000000.0,
+        "receivables_prior": 19269000000.0,
+        "revenue_ttm": 138699000000.0,
+        "revenue_ttm_prior": 122211000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 74852000000.0,
+      "aggregate_capex_ttm_prior": 64891000000.0,
+      "aggregate_net_debt": 13145000000.0,
+      "aggregate_net_debt_prior": 38931000000.0,
+      "aggregate_ocf_ttm": 189821000000.0,
+      "aggregate_ocf_ttm_prior": 160906000000.0,
+      "aggregate_receivables": 69649000000.0,
+      "aggregate_receivables_prior": 60872000000.0,
+      "aggregate_revenue_ttm": 675007000000.0,
+      "aggregate_revenue_ttm_prior": 564717000000.0,
+      "capex_growth": 0.15350356752091976,
+      "capex_growth_gap": -0.026197624479378456,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.17970119200029822,
+      "receivables_growth": 0.14418780391641484,
+      "receivables_growth_gap": -0.05111355942132789,
+      "revenue_growth": 0.19530136333774273,
+      "self_funding_ratio": 2.5359509431945706
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2020-08-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 24263000000.0,
+        "capex_ttm_prior": 13938000000.0,
+        "cash": 37466000000.0,
+        "cash_prior": 22616000000.0,
+        "debt": 34282000000.0,
+        "debt_prior": 24965000000.0,
+        "ocf_ttm": 51221000000.0,
+        "ocf_ttm_prior": 36029000000.0,
+        "period_end": "2020-06-30",
+        "published_at": "2020-07-31",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 19918000000.0,
+        "receivables_prior": 16747000000.0,
+        "revenue_ttm": 321782000000.0,
+        "revenue_ttm_prior": 252063000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 24180000000.0,
+        "capex_ttm_prior": 23127000000.0,
+        "cash": 17742000000.0,
+        "cash_prior": 16587000000.0,
+        "debt": 2963000000.0,
+        "debt_prior": 3954000000.0,
+        "ocf_ttm": 55337000000.0,
+        "ocf_ttm_prior": 50824000000.0,
+        "period_end": "2020-06-30",
+        "published_at": "2020-07-31",
+        "quality_flags": [],
+        "receivables": 21201000000.0,
+        "receivables_prior": 20965000000.0,
+        "revenue_ttm": 166030000000.0,
+        "revenue_ttm_prior": 148299000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 14445000000.0,
+        "capex_ttm_prior": 15113000000.0,
+        "cash": 21045000000.0,
+        "cash_prior": 13877000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 33268000000.0,
+        "ocf_ttm_prior": 33040000000.0,
+        "period_end": "2020-06-30",
+        "published_at": "2020-07-31",
+        "quality_flags": [],
+        "receivables": 7483000000.0,
+        "receivables_prior": 7513000000.0,
+        "revenue_ttm": 75158000000.0,
+        "revenue_ttm_prior": 62604000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 15441000000.0,
+        "capex_ttm_prior": 13925000000.0,
+        "cash": 13576000000.0,
+        "cash_prior": 11356000000.0,
+        "debt": 63327000000.0,
+        "debt_prior": 72178000000.0,
+        "ocf_ttm": 60675000000.0,
+        "ocf_ttm_prior": 52185000000.0,
+        "period_end": "2020-06-30",
+        "published_at": "2020-07-30",
+        "quality_flags": [],
+        "receivables": 32011000000.0,
+        "receivables_prior": 29524000000.0,
+        "revenue_ttm": 143015000000.0,
+        "revenue_ttm_prior": 125843000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 78329000000.0,
+      "aggregate_capex_ttm_prior": 66103000000.0,
+      "aggregate_net_debt": 10743000000.0,
+      "aggregate_net_debt_prior": 38161000000.0,
+      "aggregate_ocf_ttm": 200501000000.0,
+      "aggregate_ocf_ttm_prior": 172078000000.0,
+      "aggregate_receivables": 80613000000.0,
+      "aggregate_receivables_prior": 74749000000.0,
+      "aggregate_revenue_ttm": 705985000000.0,
+      "aggregate_revenue_ttm_prior": 588809000000.0,
+      "capex_growth": 0.18495378424579823,
+      "capex_growth_gap": 0.019778689230746993,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.16517509501505123,
+      "receivables_growth": 0.07844921002287664,
+      "receivables_growth_gap": -0.12055590029303231,
+      "revenue_growth": 0.19900511031590895,
+      "self_funding_ratio": 2.5597288360632717
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2021-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 40140000000.0,
+        "capex_ttm_prior": 16861000000.0,
+        "cash": 42122000000.0,
+        "cash_prior": 36092000000.0,
+        "debt": 32971000000.0,
+        "debt_prior": 24719000000.0,
+        "ocf_ttm": 66065000000.0,
+        "ocf_ttm_prior": 38515000000.0,
+        "period_end": "2020-12-31",
+        "published_at": "2021-02-03",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 24542000000.0,
+        "receivables_prior": 20816000000.0,
+        "revenue_ttm": 386064000000.0,
+        "revenue_ttm_prior": 280522000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 22281000000.0,
+        "capex_ttm_prior": 23548000000.0,
+        "cash": 26465000000.0,
+        "cash_prior": 18498000000.0,
+        "debt": 16318000000.0,
+        "debt_prior": 3958000000.0,
+        "ocf_ttm": 65124000000.0,
+        "ocf_ttm_prior": 54520000000.0,
+        "period_end": "2020-12-31",
+        "published_at": "2021-02-03",
+        "quality_flags": [
+          "fallback_tag:revenue",
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 30930000000.0,
+        "receivables_prior": 25326000000.0,
+        "revenue_ttm": 182527000000.0,
+        "revenue_ttm_prior": 161857000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 15115000000.0,
+        "capex_ttm_prior": 15102000000.0,
+        "cash": 17576000000.0,
+        "cash_prior": 19079000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 38747000000.0,
+        "ocf_ttm_prior": 36314000000.0,
+        "period_end": "2020-12-31",
+        "published_at": "2021-01-28",
+        "quality_flags": [],
+        "receivables": 11335000000.0,
+        "receivables_prior": 9518000000.0,
+        "revenue_ttm": 85966000000.0,
+        "revenue_ttm_prior": 70697000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 17592000000.0,
+        "capex_ttm_prior": 13546000000.0,
+        "cash": 14432000000.0,
+        "cash_prior": 8864000000.0,
+        "debt": 60523000000.0,
+        "debt_prior": 69608000000.0,
+        "ocf_ttm": 68028000000.0,
+        "ocf_ttm_prior": 54126000000.0,
+        "period_end": "2020-12-31",
+        "published_at": "2021-01-26",
+        "quality_flags": [],
+        "receivables": 27312000000.0,
+        "receivables_prior": 23525000000.0,
+        "revenue_ttm": 153284000000.0,
+        "revenue_ttm_prior": 134249000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 95128000000.0,
+      "aggregate_capex_ttm_prior": 69057000000.0,
+      "aggregate_net_debt": 9217000000.0,
+      "aggregate_net_debt_prior": 17252000000.0,
+      "aggregate_ocf_ttm": 237964000000.0,
+      "aggregate_ocf_ttm_prior": 183475000000.0,
+      "aggregate_receivables": 94119000000.0,
+      "aggregate_receivables_prior": 79185000000.0,
+      "aggregate_revenue_ttm": 807841000000.0,
+      "aggregate_revenue_ttm_prior": 647325000000.0,
+      "capex_growth": 0.3775287081686143,
+      "capex_growth_gap": 0.0805454679451505,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.2969832402234638,
+      "receivables_growth": 0.18859632506156476,
+      "receivables_growth_gap": -0.059371851665736,
+      "revenue_growth": 0.24796817672730076,
+      "self_funding_ratio": 2.5015137498948783
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2021-11-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 56941000000.0,
+        "capex_ttm_prior": 30629000000.0,
+        "cash": 29944000000.0,
+        "cash_prior": 29930000000.0,
+        "debt": 51055000000.0,
+        "debt_prior": 33084000000.0,
+        "ocf_ttm": 54672000000.0,
+        "ocf_ttm_prior": 55293000000.0,
+        "period_end": "2021-09-30",
+        "published_at": "2021-10-29",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 28610000000.0,
+        "receivables_prior": 20832000000.0,
+        "revenue_ttm": 457965000000.0,
+        "revenue_ttm_prior": 347946000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 23736000000.0,
+        "capex_ttm_prior": 22854000000.0,
+        "cash": 23719000000.0,
+        "cash_prior": 20129000000.0,
+        "debt": 15319000000.0,
+        "debt_prior": 4957000000.0,
+        "ocf_ttm": 89395000000.0,
+        "ocf_ttm_prior": 56874000000.0,
+        "period_end": "2021-09-30",
+        "published_at": "2021-10-27",
+        "quality_flags": [
+          "fallback_tag:revenue",
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 34047000000.0,
+        "receivables_prior": 24925000000.0,
+        "revenue_ttm": 239210000000.0,
+        "revenue_ttm_prior": 171704000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 17811000000.0,
+        "capex_ttm_prior": 14602000000.0,
+        "cash": 14496000000.0,
+        "cash_prior": 11617000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 53619000000.0,
+        "ocf_ttm_prior": 33790000000.0,
+        "period_end": "2021-09-30",
+        "published_at": "2021-10-26",
+        "quality_flags": [],
+        "receivables": 12088000000.0,
+        "receivables_prior": 8024000000.0,
+        "revenue_ttm": 112330000000.0,
+        "revenue_ttm_prior": 78976000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 21525000000.0,
+        "capex_ttm_prior": 16963000000.0,
+        "cash": 19165000000.0,
+        "cash_prior": 17205000000.0,
+        "debt": 53288000000.0,
+        "debt_prior": 63552000000.0,
+        "ocf_ttm": 81945000000.0,
+        "ocf_ttm_prior": 66192000000.0,
+        "period_end": "2021-09-30",
+        "published_at": "2021-10-26",
+        "quality_flags": [],
+        "receivables": 27349000000.0,
+        "receivables_prior": 22851000000.0,
+        "revenue_ttm": 176251000000.0,
+        "revenue_ttm_prior": 147114000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 120013000000.0,
+      "aggregate_capex_ttm_prior": 85048000000.0,
+      "aggregate_net_debt": 32338000000.0,
+      "aggregate_net_debt_prior": 24212000000.0,
+      "aggregate_ocf_ttm": 279631000000.0,
+      "aggregate_ocf_ttm_prior": 212149000000.0,
+      "aggregate_receivables": 102094000000.0,
+      "aggregate_receivables_prior": 76632000000.0,
+      "aggregate_revenue_ttm": 985756000000.0,
+      "aggregate_revenue_ttm_prior": 745740000000.0,
+      "capex_growth": 0.4111207788542941,
+      "capex_growth_gap": 0.09303301977930434,
+      "net_debt_change": 8126000000.0,
+      "net_debt_change_funding_ratio": 0.06770933148908868,
+      "ocf_growth": 0.31808775907498976,
+      "receivables_growth": 0.33226328426766893,
+      "receivables_growth_gap": 0.010413846125689075,
+      "revenue_growth": 0.32184943814197986,
+      "self_funding_ratio": 2.330005916025764
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2022-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 61053000000.0,
+        "capex_ttm_prior": 40140000000.0,
+        "cash": 36220000000.0,
+        "cash_prior": 42122000000.0,
+        "debt": 50235000000.0,
+        "debt_prior": 32971000000.0,
+        "ocf_ttm": 46327000000.0,
+        "ocf_ttm_prior": 66065000000.0,
+        "period_end": "2021-12-31",
+        "published_at": "2022-02-04",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 32891000000.0,
+        "receivables_prior": 24542000000.0,
+        "revenue_ttm": 469822000000.0,
+        "revenue_ttm_prior": 386064000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 24640000000.0,
+        "capex_ttm_prior": 22281000000.0,
+        "cash": 20945000000.0,
+        "cash_prior": 26465000000.0,
+        "debt": 15440000000.0,
+        "debt_prior": 16318000000.0,
+        "ocf_ttm": 91652000000.0,
+        "ocf_ttm_prior": 65124000000.0,
+        "period_end": "2021-12-31",
+        "published_at": "2022-02-02",
+        "quality_flags": [
+          "fallback_tag:revenue",
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 39304000000.0,
+        "receivables_prior": 30930000000.0,
+        "revenue_ttm": 257637000000.0,
+        "revenue_ttm_prior": 182527000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 18567000000.0,
+        "capex_ttm_prior": 15115000000.0,
+        "cash": 16601000000.0,
+        "cash_prior": 17576000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 57683000000.0,
+        "ocf_ttm_prior": 38747000000.0,
+        "period_end": "2021-12-31",
+        "published_at": "2022-02-03",
+        "quality_flags": [],
+        "receivables": 14039000000.0,
+        "receivables_prior": 11335000000.0,
+        "revenue_ttm": 117929000000.0,
+        "revenue_ttm_prior": 85966000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 23216000000.0,
+        "capex_ttm_prior": 17592000000.0,
+        "cash": 20604000000.0,
+        "cash_prior": 14432000000.0,
+        "debt": 53258000000.0,
+        "debt_prior": 60523000000.0,
+        "ocf_ttm": 83909000000.0,
+        "ocf_ttm_prior": 68028000000.0,
+        "period_end": "2021-12-31",
+        "published_at": "2022-01-25",
+        "quality_flags": [],
+        "receivables": 33520000000.0,
+        "receivables_prior": 27312000000.0,
+        "revenue_ttm": 184903000000.0,
+        "revenue_ttm_prior": 153284000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 127476000000.0,
+      "aggregate_capex_ttm_prior": 95128000000.0,
+      "aggregate_net_debt": 24563000000.0,
+      "aggregate_net_debt_prior": 10717000000.0,
+      "aggregate_ocf_ttm": 279571000000.0,
+      "aggregate_ocf_ttm_prior": 237964000000.0,
+      "aggregate_receivables": 119754000000.0,
+      "aggregate_receivables_prior": 94119000000.0,
+      "aggregate_revenue_ttm": 1030291000000.0,
+      "aggregate_revenue_ttm_prior": 807841000000.0,
+      "capex_growth": 0.340047094441174,
+      "capex_growth_gap": 0.16520131944999883,
+      "net_debt_change": 13846000000.0,
+      "net_debt_change_funding_ratio": 0.10861652389469391,
+      "ocf_growth": 0.17484577499117515,
+      "receivables_growth": 0.27236795971057925,
+      "receivables_growth_gap": -0.002995632877566212,
+      "revenue_growth": 0.27536359258814547,
+      "self_funding_ratio": 2.193126549311243
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2022-05-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 63922000000.0,
+        "capex_ttm_prior": 45427000000.0,
+        "cash": 36393000000.0,
+        "cash_prior": 33834000000.0,
+        "debt": 50237000000.0,
+        "debt_prior": 33024000000.0,
+        "ocf_ttm": 39324000000.0,
+        "ocf_ttm_prior": 67214000000.0,
+        "period_end": "2022-03-31",
+        "published_at": "2022-04-29",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 32504000000.0,
+        "receivables_prior": 24289000000.0,
+        "revenue_ttm": 477748000000.0,
+        "revenue_ttm_prior": 419130000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 28484000000.0,
+        "capex_ttm_prior": 22218000000.0,
+        "cash": 20886000000.0,
+        "cash_prior": 26622000000.0,
+        "debt": 15440000000.0,
+        "debt_prior": 16318000000.0,
+        "ocf_ttm": 97469000000.0,
+        "ocf_ttm_prior": 72962000000.0,
+        "period_end": "2022-03-31",
+        "published_at": "2022-04-27",
+        "quality_flags": [
+          "fallback_tag:revenue",
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 34703000000.0,
+        "receivables_prior": 28006000000.0,
+        "revenue_ttm": 270334000000.0,
+        "revenue_ttm_prior": 196682000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 19736000000.0,
+        "capex_ttm_prior": 15860000000.0,
+        "cash": 14886000000.0,
+        "cash_prior": 19513000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 59517000000.0,
+        "ocf_ttm_prior": 39988000000.0,
+        "period_end": "2022-03-31",
+        "published_at": "2022-04-28",
+        "quality_flags": [],
+        "receivables": 11390000000.0,
+        "receivables_prior": 10276000000.0,
+        "revenue_ttm": 119666000000.0,
+        "revenue_ttm_prior": 94400000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 23467000000.0,
+        "capex_ttm_prior": 18914000000.0,
+        "cash": 12498000000.0,
+        "cash_prior": 13702000000.0,
+        "debt": 49926000000.0,
+        "debt_prior": 58058000000.0,
+        "ocf_ttm": 87116000000.0,
+        "ocf_ttm_prior": 72703000000.0,
+        "period_end": "2022-03-31",
+        "published_at": "2022-04-26",
+        "quality_flags": [],
+        "receivables": 32613000000.0,
+        "receivables_prior": 26322000000.0,
+        "revenue_ttm": 192557000000.0,
+        "revenue_ttm_prior": 159969000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 135609000000.0,
+      "aggregate_capex_ttm_prior": 102419000000.0,
+      "aggregate_net_debt": 30940000000.0,
+      "aggregate_net_debt_prior": 15229000000.0,
+      "aggregate_ocf_ttm": 283426000000.0,
+      "aggregate_ocf_ttm_prior": 252867000000.0,
+      "aggregate_receivables": 111210000000.0,
+      "aggregate_receivables_prior": 88893000000.0,
+      "aggregate_revenue_ttm": 1060305000000.0,
+      "aggregate_revenue_ttm_prior": 870181000000.0,
+      "capex_growth": 0.32406096525058836,
+      "capex_growth_gap": 0.20321087409594973,
+      "net_debt_change": 15711000000.0,
+      "net_debt_change_funding_ratio": 0.11585514235780811,
+      "ocf_growth": 0.12085009115463863,
+      "receivables_growth": 0.2510546387229591,
+      "receivables_growth_gap": 0.032566760913629755,
+      "revenue_growth": 0.21848787780932932,
+      "self_funding_ratio": 2.090023523512451
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2022-08-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 65358000000.0,
+        "capex_ttm_prior": 52256000000.0,
+        "cash": 37478000000.0,
+        "cash_prior": 40380000000.0,
+        "debt": 63051000000.0,
+        "debt_prior": 51437000000.0,
+        "ocf_ttm": 35574000000.0,
+        "ocf_ttm_prior": 59323000000.0,
+        "period_end": "2022-06-30",
+        "published_at": "2022-07-29",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 34804000000.0,
+        "receivables_prior": 26835000000.0,
+        "revenue_ttm": 485902000000.0,
+        "revenue_ttm_prior": 443298000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 29816000000.0,
+        "capex_ttm_prior": 22323000000.0,
+        "cash": 17936000000.0,
+        "cash_prior": 23630000000.0,
+        "debt": 15440000000.0,
+        "debt_prior": 16318000000.0,
+        "ocf_ttm": 95001000000.0,
+        "ocf_ttm_prior": 80859000000.0,
+        "period_end": "2022-06-30",
+        "published_at": "2022-07-27",
+        "quality_flags": [
+          "fallback_tag:revenue",
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 35707000000.0,
+        "receivables_prior": 31967000000.0,
+        "revenue_ttm": 278139000000.0,
+        "revenue_ttm_prior": 220265000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 22696000000.0,
+        "capex_ttm_prior": 17246000000.0,
+        "cash": 12681000000.0,
+        "cash_prior": 16186000000.0,
+        "debt": 0.0,
+        "debt_prior": 1500000000.0,
+        "ocf_ttm": 58466000000.0,
+        "ocf_ttm_prior": 49358000000.0,
+        "period_end": "2022-06-30",
+        "published_at": "2022-07-28",
+        "quality_flags": [],
+        "receivables": 11525000000.0,
+        "receivables_prior": 11698000000.0,
+        "revenue_ttm": 119411000000.0,
+        "revenue_ttm_prior": 104790000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 23886000000.0,
+        "capex_ttm_prior": 20622000000.0,
+        "cash": 13931000000.0,
+        "cash_prior": 14224000000.0,
+        "debt": 49781000000.0,
+        "debt_prior": 58146000000.0,
+        "ocf_ttm": 89035000000.0,
+        "ocf_ttm_prior": 76740000000.0,
+        "period_end": "2022-06-30",
+        "published_at": "2022-07-28",
+        "quality_flags": [],
+        "receivables": 44261000000.0,
+        "receivables_prior": 38043000000.0,
+        "revenue_ttm": 198270000000.0,
+        "revenue_ttm_prior": 168088000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 141756000000.0,
+      "aggregate_capex_ttm_prior": 112447000000.0,
+      "aggregate_net_debt": 46246000000.0,
+      "aggregate_net_debt_prior": 32981000000.0,
+      "aggregate_ocf_ttm": 278076000000.0,
+      "aggregate_ocf_ttm_prior": 266280000000.0,
+      "aggregate_receivables": 126297000000.0,
+      "aggregate_receivables_prior": 108543000000.0,
+      "aggregate_revenue_ttm": 1081722000000.0,
+      "aggregate_revenue_ttm_prior": 936441000000.0,
+      "capex_growth": 0.26064723825446645,
+      "capex_growth_gap": 0.2163480043653272,
+      "net_debt_change": 13265000000.0,
+      "net_debt_change_funding_ratio": 0.09357628601258501,
+      "ocf_growth": 0.044299233889139256,
+      "receivables_growth": 0.1635665128105912,
+      "receivables_growth_gap": 0.00842486480500404,
+      "revenue_growth": 0.15514164800558716,
+      "self_funding_ratio": 1.9616524168289173
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2023-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 63645000000.0,
+        "capex_ttm_prior": 61053000000.0,
+        "cash": 53888000000.0,
+        "cash_prior": 36220000000.0,
+        "debt": 70149000000.0,
+        "debt_prior": 50235000000.0,
+        "ocf_ttm": 46752000000.0,
+        "ocf_ttm_prior": 46327000000.0,
+        "period_end": "2022-12-31",
+        "published_at": "2023-02-03",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 42360000000.0,
+        "receivables_prior": 32891000000.0,
+        "revenue_ttm": 513983000000.0,
+        "revenue_ttm_prior": 469822000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 31485000000.0,
+        "capex_ttm_prior": 24640000000.0,
+        "cash": 21879000000.0,
+        "cash_prior": 20945000000.0,
+        "debt": 15312000000.0,
+        "debt_prior": 16439000000.0,
+        "ocf_ttm": 91495000000.0,
+        "ocf_ttm_prior": 91652000000.0,
+        "period_end": "2022-12-31",
+        "published_at": "2023-02-03",
+        "quality_flags": [
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 40258000000.0,
+        "receivables_prior": 39304000000.0,
+        "revenue_ttm": 282836000000.0,
+        "revenue_ttm_prior": 257637000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 31431000000.0,
+        "capex_ttm_prior": 18690000000.0,
+        "cash": 14681000000.0,
+        "cash_prior": 16601000000.0,
+        "debt": 9923000000.0,
+        "debt_prior": 0.0,
+        "ocf_ttm": 50475000000.0,
+        "ocf_ttm_prior": 57683000000.0,
+        "period_end": "2022-12-31",
+        "published_at": "2023-02-02",
+        "quality_flags": [],
+        "receivables": 13466000000.0,
+        "receivables_prior": 14039000000.0,
+        "revenue_ttm": 116609000000.0,
+        "revenue_ttm_prior": 117929000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 24768000000.0,
+        "capex_ttm_prior": 23216000000.0,
+        "cash": 15646000000.0,
+        "cash_prior": 20604000000.0,
+        "debt": 48116000000.0,
+        "debt_prior": 53258000000.0,
+        "ocf_ttm": 84386000000.0,
+        "ocf_ttm_prior": 83909000000.0,
+        "period_end": "2022-12-31",
+        "published_at": "2023-01-24",
+        "quality_flags": [],
+        "receivables": 35833000000.0,
+        "receivables_prior": 33520000000.0,
+        "revenue_ttm": 204094000000.0,
+        "revenue_ttm_prior": 184903000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 151329000000.0,
+      "aggregate_capex_ttm_prior": 127599000000.0,
+      "aggregate_net_debt": 37406000000.0,
+      "aggregate_net_debt_prior": 25562000000.0,
+      "aggregate_ocf_ttm": 273108000000.0,
+      "aggregate_ocf_ttm_prior": 279571000000.0,
+      "aggregate_receivables": 131917000000.0,
+      "aggregate_receivables_prior": 119754000000.0,
+      "aggregate_revenue_ttm": 1117522000000.0,
+      "aggregate_revenue_ttm_prior": 1030291000000.0,
+      "capex_growth": 0.1859732443044224,
+      "capex_growth_gap": 0.20909080656946422,
+      "net_debt_change": 11844000000.0,
+      "net_debt_change_funding_ratio": 0.07826655829351942,
+      "ocf_growth": -0.023117562265041802,
+      "receivables_growth": 0.10156654475007088,
+      "receivables_growth_gap": 0.016900173792739448,
+      "revenue_growth": 0.08466637095733143,
+      "self_funding_ratio": 1.8047300913902822
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2024-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 52729000000.0,
+        "capex_ttm_prior": 63645000000.0,
+        "cash": 73387000000.0,
+        "cash_prior": 53888000000.0,
+        "debt": 66808000000.0,
+        "debt_prior": 70149000000.0,
+        "ocf_ttm": 84946000000.0,
+        "ocf_ttm_prior": 46752000000.0,
+        "period_end": "2023-12-31",
+        "published_at": "2024-02-02",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 52253000000.0,
+        "receivables_prior": 42360000000.0,
+        "revenue_ttm": 574785000000.0,
+        "revenue_ttm_prior": 513983000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 32251000000.0,
+        "capex_ttm_prior": 31485000000.0,
+        "cash": 24048000000.0,
+        "cash_prior": 21879000000.0,
+        "debt": 15862000000.0,
+        "debt_prior": 15312000000.0,
+        "ocf_ttm": 101746000000.0,
+        "ocf_ttm_prior": 91495000000.0,
+        "period_end": "2023-12-31",
+        "published_at": "2024-01-31",
+        "quality_flags": [
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 47964000000.0,
+        "receivables_prior": 40258000000.0,
+        "revenue_ttm": 307394000000.0,
+        "revenue_ttm_prior": 282836000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 27266000000.0,
+        "capex_ttm_prior": 31431000000.0,
+        "cash": 41862000000.0,
+        "cash_prior": 14681000000.0,
+        "debt": 18385000000.0,
+        "debt_prior": 9923000000.0,
+        "ocf_ttm": 71113000000.0,
+        "ocf_ttm_prior": 50475000000.0,
+        "period_end": "2023-12-31",
+        "published_at": "2024-02-02",
+        "quality_flags": [],
+        "receivables": 16169000000.0,
+        "receivables_prior": 13466000000.0,
+        "revenue_ttm": 134901000000.0,
+        "revenue_ttm_prior": 116609000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 35202000000.0,
+        "capex_ttm_prior": 24768000000.0,
+        "cash": 17305000000.0,
+        "cash_prior": 15646000000.0,
+        "debt": 47178000000.0,
+        "debt_prior": 48116000000.0,
+        "ocf_ttm": 102647000000.0,
+        "ocf_ttm_prior": 84386000000.0,
+        "period_end": "2023-12-31",
+        "published_at": "2024-01-30",
+        "quality_flags": [],
+        "receivables": 42831000000.0,
+        "receivables_prior": 35833000000.0,
+        "revenue_ttm": 227583000000.0,
+        "revenue_ttm_prior": 204094000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 147448000000.0,
+      "aggregate_capex_ttm_prior": 151329000000.0,
+      "aggregate_net_debt": -8369000000.0,
+      "aggregate_net_debt_prior": 37406000000.0,
+      "aggregate_ocf_ttm": 360452000000.0,
+      "aggregate_ocf_ttm_prior": 273108000000.0,
+      "aggregate_receivables": 159217000000.0,
+      "aggregate_receivables_prior": 131917000000.0,
+      "aggregate_revenue_ttm": 1244663000000.0,
+      "aggregate_revenue_ttm_prior": 1117522000000.0,
+      "capex_growth": -0.025646108809283086,
+      "capex_growth_gap": -0.34546098058162233,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.31981487177233925,
+      "receivables_growth": 0.20694830840604328,
+      "receivables_growth_gap": 0.09317784124745487,
+      "revenue_growth": 0.1137704671585884,
+      "self_funding_ratio": 2.4446041994465846
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2024-05-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 53447000000.0,
+        "capex_ttm_prior": 62901000000.0,
+        "cash": 72852000000.0,
+        "cash_prior": 49343000000.0,
+        "debt": 66482000000.0,
+        "debt_prior": 69084000000.0,
+        "ocf_ttm": 99147000000.0,
+        "ocf_ttm_prior": 54330000000.0,
+        "period_end": "2024-03-31",
+        "published_at": "2024-05-01",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 47768000000.0,
+        "receivables_prior": 37646000000.0,
+        "revenue_ttm": 590740000000.0,
+        "revenue_ttm_prior": 524897000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 37974000000.0,
+        "capex_ttm_prior": 27988000000.0,
+        "cash": 24493000000.0,
+        "cash_prior": 25924000000.0,
+        "debt": 14862000000.0,
+        "debt_prior": 16311000000.0,
+        "ocf_ttm": 107085000000.0,
+        "ocf_ttm_prior": 89898000000.0,
+        "period_end": "2024-03-31",
+        "published_at": "2024-04-26",
+        "quality_flags": [
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 44552000000.0,
+        "receivables_prior": 36036000000.0,
+        "revenue_ttm": 318146000000.0,
+        "revenue_ttm_prior": 284612000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 26824000000.0,
+        "capex_ttm_prior": 32813000000.0,
+        "cash": 32307000000.0,
+        "cash_prior": 11551000000.0,
+        "debt": 18387000000.0,
+        "debt_prior": 9925000000.0,
+        "ocf_ttm": 76361000000.0,
+        "ocf_ttm_prior": 50397000000.0,
+        "period_end": "2024-03-31",
+        "published_at": "2024-04-25",
+        "quality_flags": [],
+        "receivables": 13430000000.0,
+        "receivables_prior": 11044000000.0,
+        "revenue_ttm": 142711000000.0,
+        "revenue_ttm_prior": 117346000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 39547000000.0,
+        "capex_ttm_prior": 26035000000.0,
+        "cash": 19634000000.0,
+        "cash_prior": 26562000000.0,
+        "debt": 44907000000.0,
+        "debt_prior": 48210000000.0,
+        "ocf_ttm": 110123000000.0,
+        "ocf_ttm_prior": 83441000000.0,
+        "period_end": "2024-03-31",
+        "published_at": "2024-04-25",
+        "quality_flags": [],
+        "receivables": 44029000000.0,
+        "receivables_prior": 37420000000.0,
+        "revenue_ttm": 236584000000.0,
+        "revenue_ttm_prior": 207591000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 157792000000.0,
+      "aggregate_capex_ttm_prior": 149737000000.0,
+      "aggregate_net_debt": -4648000000.0,
+      "aggregate_net_debt_prior": 30150000000.0,
+      "aggregate_ocf_ttm": 392716000000.0,
+      "aggregate_ocf_ttm_prior": 278066000000.0,
+      "aggregate_receivables": 149779000000.0,
+      "aggregate_receivables_prior": 122146000000.0,
+      "aggregate_revenue_ttm": 1288181000000.0,
+      "aggregate_revenue_ttm_prior": 1134446000000.0,
+      "capex_growth": 0.05379431937330126,
+      "capex_growth_gap": -0.3585178655036705,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.41231218487697174,
+      "receivables_growth": 0.22622926661536202,
+      "receivables_growth_gap": 0.09071378152396048,
+      "revenue_growth": 0.13551548509140154,
+      "self_funding_ratio": 2.488820726019063
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2024-08-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 59612000000.0,
+        "capex_ttm_prior": 58632000000.0,
+        "cash": 71178000000.0,
+        "cash_prior": 49529000000.0,
+        "debt": 62318000000.0,
+        "debt_prior": 67089000000.0,
+        "ocf_ttm": 107952000000.0,
+        "ocf_ttm_prior": 61841000000.0,
+        "period_end": "2024-06-30",
+        "published_at": "2024-08-02",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 50106000000.0,
+        "receivables_prior": 39925000000.0,
+        "revenue_ttm": 604334000000.0,
+        "revenue_ttm_prior": 538046000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 44272000000.0,
+        "capex_ttm_prior": 28048000000.0,
+        "cash": 27225000000.0,
+        "cash_prior": 25929000000.0,
+        "debt": 14862000000.0,
+        "debt_prior": 16311000000.0,
+        "ocf_ttm": 105059000000.0,
+        "ocf_ttm_prior": 99142000000.0,
+        "period_end": "2024-06-30",
+        "published_at": "2024-07-24",
+        "quality_flags": [
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 47087000000.0,
+        "receivables_prior": 38804000000.0,
+        "revenue_ttm": 328284000000.0,
+        "revenue_ttm_prior": 289531000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 28781000000.0,
+        "capex_ttm_prior": 31375000000.0,
+        "cash": 32045000000.0,
+        "cash_prior": 28785000000.0,
+        "debt": 18389000000.0,
+        "debt_prior": 18382000000.0,
+        "ocf_ttm": 78422000000.0,
+        "ocf_ttm_prior": 55510000000.0,
+        "period_end": "2024-06-30",
+        "published_at": "2024-08-01",
+        "quality_flags": [],
+        "receivables": 14505000000.0,
+        "receivables_prior": 12511000000.0,
+        "revenue_ttm": 149783000000.0,
+        "revenue_ttm_prior": 120523000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 44477000000.0,
+        "capex_ttm_prior": 28107000000.0,
+        "cash": 18315000000.0,
+        "cash_prior": 34704000000.0,
+        "debt": 44937000000.0,
+        "debt_prior": 47237000000.0,
+        "ocf_ttm": 118548000000.0,
+        "ocf_ttm_prior": 87582000000.0,
+        "period_end": "2024-06-30",
+        "published_at": "2024-07-30",
+        "quality_flags": [],
+        "receivables": 56924000000.0,
+        "receivables_prior": 48688000000.0,
+        "revenue_ttm": 245122000000.0,
+        "revenue_ttm_prior": 211915000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 177142000000.0,
+      "aggregate_capex_ttm_prior": 146162000000.0,
+      "aggregate_net_debt": -8257000000.0,
+      "aggregate_net_debt_prior": 10072000000.0,
+      "aggregate_ocf_ttm": 409981000000.0,
+      "aggregate_ocf_ttm_prior": 304075000000.0,
+      "aggregate_receivables": 168622000000.0,
+      "aggregate_receivables_prior": 139928000000.0,
+      "aggregate_revenue_ttm": 1327523000000.0,
+      "aggregate_revenue_ttm_prior": 1160015000000.0,
+      "capex_growth": 0.21195659610569084,
+      "capex_growth_gap": -0.1363324773136958,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.34828907341938664,
+      "receivables_growth": 0.2050626036247214,
+      "receivables_growth_gap": 0.060661022610682735,
+      "revenue_growth": 0.14440158101403866,
+      "self_funding_ratio": 2.314420069774531
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2024-11-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 69753000000.0,
+        "capex_ttm_prior": 54733000000.0,
+        "cash": 75091000000.0,
+        "cash_prior": 49605000000.0,
+        "debt": 60138000000.0,
+        "debt_prior": 67093000000.0,
+        "ocf_ttm": 112706000000.0,
+        "ocf_ttm_prior": 71654000000.0,
+        "period_end": "2024-09-30",
+        "published_at": "2024-11-01",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 51638000000.0,
+        "receivables_prior": 43420000000.0,
+        "revenue_ttm": 620128000000.0,
+        "revenue_ttm_prior": 554028000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 49278000000.0,
+        "capex_ttm_prior": 28827000000.0,
+        "cash": 19959000000.0,
+        "cash_prior": 30702000000.0,
+        "debt": 15861000000.0,
+        "debt_prior": 16312000000.0,
+        "ocf_ttm": 105101000000.0,
+        "ocf_ttm_prior": 106445000000.0,
+        "period_end": "2024-09-30",
+        "published_at": "2024-10-30",
+        "quality_flags": [
+          "fallback_tag:debt_noncurrent"
+        ],
+        "receivables": 49104000000.0,
+        "receivables_prior": 41020000000.0,
+        "revenue_ttm": 339859000000.0,
+        "revenue_ttm_prior": 297132000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebt"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 30496000000.0,
+        "capex_ttm_prior": 28496000000.0,
+        "cash": 43852000000.0,
+        "cash_prior": 36890000000.0,
+        "debt": 28823000000.0,
+        "debt_prior": 18383000000.0,
+        "ocf_ttm": 82744000000.0,
+        "ocf_ttm_prior": 66220000000.0,
+        "period_end": "2024-09-30",
+        "published_at": "2024-10-31",
+        "quality_flags": [],
+        "receivables": 14700000000.0,
+        "receivables_prior": 12944000000.0,
+        "revenue_ttm": 156226000000.0,
+        "revenue_ttm_prior": 126955000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 49483000000.0,
+        "capex_ttm_prior": 31741000000.0,
+        "cash": 20840000000.0,
+        "cash_prior": 80452000000.0,
+        "debt": 45117000000.0,
+        "debt_prior": 45694000000.0,
+        "ocf_ttm": 122145000000.0,
+        "ocf_ttm_prior": 94967000000.0,
+        "period_end": "2024-09-30",
+        "published_at": "2024-10-30",
+        "quality_flags": [],
+        "receivables": 44148000000.0,
+        "receivables_prior": 36953000000.0,
+        "revenue_ttm": 254190000000.0,
+        "revenue_ttm_prior": 218310000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 199010000000.0,
+      "aggregate_capex_ttm_prior": 143797000000.0,
+      "aggregate_net_debt": -9803000000.0,
+      "aggregate_net_debt_prior": -50167000000.0,
+      "aggregate_ocf_ttm": 422696000000.0,
+      "aggregate_ocf_ttm_prior": 339286000000.0,
+      "aggregate_receivables": 159590000000.0,
+      "aggregate_receivables_prior": 134337000000.0,
+      "aggregate_revenue_ttm": 1370403000000.0,
+      "aggregate_revenue_ttm_prior": 1196425000000.0,
+      "capex_growth": 0.3839648949560839,
+      "capex_growth_gap": 0.13812510197906747,
+      "net_debt_change": 40364000000.0,
+      "net_debt_change_funding_ratio": 0.20282397869453797,
+      "ocf_growth": 0.2458397929770164,
+      "receivables_growth": 0.18798246201716573,
+      "receivables_growth_gap": 0.042567580181697595,
+      "revenue_growth": 0.14541488183546813,
+      "self_funding_ratio": 2.123993769157329
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2025-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 82999000000.0,
+        "capex_ttm_prior": 52729000000.0,
+        "cash": 78779000000.0,
+        "cash_prior": 73387000000.0,
+        "debt": 57640000000.0,
+        "debt_prior": 66808000000.0,
+        "ocf_ttm": 115877000000.0,
+        "ocf_ttm_prior": 84946000000.0,
+        "period_end": "2024-12-31",
+        "published_at": "2025-02-07",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 55451000000.0,
+        "receivables_prior": 52253000000.0,
+        "revenue_ttm": 637959000000.0,
+        "revenue_ttm_prior": 574785000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 52535000000.0,
+        "capex_ttm_prior": 32251000000.0,
+        "cash": 23466000000.0,
+        "cash_prior": 24048000000.0,
+        "debt": 11882000000.0,
+        "debt_prior": 12870000000.0,
+        "ocf_ttm": 125299000000.0,
+        "ocf_ttm_prior": 101746000000.0,
+        "period_end": "2024-12-31",
+        "published_at": "2025-02-05",
+        "quality_flags": [],
+        "receivables": 52340000000.0,
+        "receivables_prior": 47964000000.0,
+        "revenue_ttm": 350018000000.0,
+        "revenue_ttm_prior": 307394000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 37256000000.0,
+        "capex_ttm_prior": 27045000000.0,
+        "cash": 43889000000.0,
+        "cash_prior": 41862000000.0,
+        "debt": 28826000000.0,
+        "debt_prior": 18385000000.0,
+        "ocf_ttm": 91328000000.0,
+        "ocf_ttm_prior": 71113000000.0,
+        "period_end": "2024-12-31",
+        "published_at": "2025-01-30",
+        "quality_flags": [],
+        "receivables": 16994000000.0,
+        "receivables_prior": 16169000000.0,
+        "revenue_ttm": 164500000000.0,
+        "revenue_ttm_prior": 134901000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 55552000000.0,
+        "capex_ttm_prior": 35202000000.0,
+        "cash": 17482000000.0,
+        "cash_prior": 17305000000.0,
+        "debt": 44970000000.0,
+        "debt_prior": 47178000000.0,
+        "ocf_ttm": 125583000000.0,
+        "ocf_ttm_prior": 102647000000.0,
+        "period_end": "2024-12-31",
+        "published_at": "2025-01-29",
+        "quality_flags": [],
+        "receivables": 48188000000.0,
+        "receivables_prior": 42831000000.0,
+        "revenue_ttm": 261802000000.0,
+        "revenue_ttm_prior": 227583000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 228342000000.0,
+      "aggregate_capex_ttm_prior": 147227000000.0,
+      "aggregate_net_debt": -20298000000.0,
+      "aggregate_net_debt_prior": -11361000000.0,
+      "aggregate_ocf_ttm": 458087000000.0,
+      "aggregate_ocf_ttm_prior": 360452000000.0,
+      "aggregate_receivables": 172973000000.0,
+      "aggregate_receivables_prior": 159217000000.0,
+      "aggregate_revenue_ttm": 1414279000000.0,
+      "aggregate_revenue_ttm_prior": 1244663000000.0,
+      "capex_growth": 0.5509519313712838,
+      "capex_growth_gap": 0.2800836881655311,
+      "net_debt_change": 0.0,
+      "net_debt_change_funding_ratio": 0.0,
+      "ocf_growth": 0.27086824320575276,
+      "receivables_growth": 0.08639780927915997,
+      "receivables_growth_gap": -0.049876828916078475,
+      "revenue_growth": 0.13627463819523844,
+      "self_funding_ratio": 2.00614429233343
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2026-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 131819000000.0,
+        "capex_ttm_prior": 82999000000.0,
+        "cash": 86810000000.0,
+        "cash_prior": 78779000000.0,
+        "debt": 68396000000.0,
+        "debt_prior": 57640000000.0,
+        "ocf_ttm": 139514000000.0,
+        "ocf_ttm_prior": 115877000000.0,
+        "period_end": "2025-12-31",
+        "published_at": "2026-02-06",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 67729000000.0,
+        "receivables_prior": 55451000000.0,
+        "revenue_ttm": 716924000000.0,
+        "revenue_ttm_prior": 637959000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 91447000000.0,
+        "capex_ttm_prior": 52535000000.0,
+        "cash": 30708000000.0,
+        "cash_prior": 23466000000.0,
+        "debt": 48543000000.0,
+        "debt_prior": 11882000000.0,
+        "ocf_ttm": 164713000000.0,
+        "ocf_ttm_prior": 125299000000.0,
+        "period_end": "2025-12-31",
+        "published_at": "2026-02-05",
+        "quality_flags": [
+          "fallback_tag:revenue"
+        ],
+        "receivables": 62886000000.0,
+        "receivables_prior": 52340000000.0,
+        "revenue_ttm": 402837000000.0,
+        "revenue_ttm_prior": 350018000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 69691000000.0,
+        "capex_ttm_prior": 37256000000.0,
+        "cash": 35873000000.0,
+        "cash_prior": 43889000000.0,
+        "debt": 58744000000.0,
+        "debt_prior": 28826000000.0,
+        "ocf_ttm": 115800000000.0,
+        "ocf_ttm_prior": 91328000000.0,
+        "period_end": "2025-12-31",
+        "published_at": "2026-01-29",
+        "quality_flags": [],
+        "receivables": 19769000000.0,
+        "receivables_prior": 16994000000.0,
+        "revenue_ttm": 200965000000.0,
+        "revenue_ttm_prior": 164500000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 83094000000.0,
+        "capex_ttm_prior": 55552000000.0,
+        "cash": 24296000000.0,
+        "cash_prior": 17482000000.0,
+        "debt": 40262000000.0,
+        "debt_prior": 44970000000.0,
+        "ocf_ttm": 160506000000.0,
+        "ocf_ttm_prior": 125583000000.0,
+        "period_end": "2025-12-31",
+        "published_at": "2026-01-28",
+        "quality_flags": [],
+        "receivables": 56535000000.0,
+        "receivables_prior": 48188000000.0,
+        "revenue_ttm": 305453000000.0,
+        "revenue_ttm_prior": 261802000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 376051000000.0,
+      "aggregate_capex_ttm_prior": 228342000000.0,
+      "aggregate_net_debt": 38258000000.0,
+      "aggregate_net_debt_prior": -20298000000.0,
+      "aggregate_ocf_ttm": 580533000000.0,
+      "aggregate_ocf_ttm_prior": 458087000000.0,
+      "aggregate_receivables": 206919000000.0,
+      "aggregate_receivables_prior": 172973000000.0,
+      "aggregate_revenue_ttm": 1626179000000.0,
+      "aggregate_revenue_ttm_prior": 1414279000000.0,
+      "capex_growth": 0.6468761769626263,
+      "capex_growth_gap": 0.37957760704031895,
+      "net_debt_change": 58556000000.0,
+      "net_debt_change_funding_ratio": 0.15571292191750588,
+      "ocf_growth": 0.2672985699223074,
+      "receivables_growth": 0.19625028183589355,
+      "receivables_growth_gap": 0.04642128769824461,
+      "revenue_growth": 0.14982899413764894,
+      "self_funding_ratio": 1.54376135151881
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2026-05-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 151003000000.0,
+        "capex_ttm_prior": 93093000000.0,
+        "cash": 101816000000.0,
+        "cash_prior": 66207000000.0,
+        "debt": 121906000000.0,
+        "debt_prior": 58388000000.0,
+        "ocf_ttm": 148531000000.0,
+        "ocf_ttm_prior": 113903000000.0,
+        "period_end": "2026-03-31",
+        "published_at": "2026-04-30",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 75532000000.0,
+        "receivables_prior": 54216000000.0,
+        "revenue_ttm": 742776000000.0,
+        "revenue_ttm_prior": 650313000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 109924000000.0,
+        "capex_ttm_prior": 57720000000.0,
+        "cash": 38063000000.0,
+        "cash_prior": 23264000000.0,
+        "debt": 79499000000.0,
+        "debt_prior": 11886000000.0,
+        "ocf_ttm": 174353000000.0,
+        "ocf_ttm_prior": 132601000000.0,
+        "period_end": "2026-03-31",
+        "published_at": "2026-04-30",
+        "quality_flags": [
+          "fallback_tag:revenue"
+        ],
+        "receivables": 62999000000.0,
+        "receivables_prior": 51000000000.0,
+        "revenue_ttm": 422499000000.0,
+        "revenue_ttm_prior": 359713000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "Revenues"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 75747000000.0,
+        "capex_ttm_prior": 43797000000.0,
+        "cash": 23426000000.0,
+        "cash_prior": 28750000000.0,
+        "debt": 58748000000.0,
+        "debt_prior": 28829000000.0,
+        "ocf_ttm": 124000000000.0,
+        "ocf_ttm_prior": 96108000000.0,
+        "period_end": "2026-03-31",
+        "published_at": "2026-04-30",
+        "quality_flags": [],
+        "receivables": 17470000000.0,
+        "receivables_prior": 14514000000.0,
+        "revenue_ttm": 214962000000.0,
+        "revenue_ttm_prior": 170359000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 97225000000.0,
+        "capex_ttm_prior": 61345000000.0,
+        "cash": 32105000000.0,
+        "cash_prior": 28828000000.0,
+        "debt": 40262000000.0,
+        "debt_prior": 42881000000.0,
+        "ocf_ttm": 170141000000.0,
+        "ocf_ttm_prior": 130710000000.0,
+        "period_end": "2026-03-31",
+        "published_at": "2026-04-29",
+        "quality_flags": [],
+        "receivables": 60041000000.0,
+        "receivables_prior": 51700000000.0,
+        "revenue_ttm": 318273000000.0,
+        "revenue_ttm_prior": 270010000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 433899000000.0,
+      "aggregate_capex_ttm_prior": 255955000000.0,
+      "aggregate_net_debt": 105005000000.0,
+      "aggregate_net_debt_prior": -5065000000.0,
+      "aggregate_ocf_ttm": 617025000000.0,
+      "aggregate_ocf_ttm_prior": 473322000000.0,
+      "aggregate_receivables": 216042000000.0,
+      "aggregate_receivables_prior": 171430000000.0,
+      "aggregate_revenue_ttm": 1698510000000.0,
+      "aggregate_revenue_ttm_prior": 1450395000000.0,
+      "capex_growth": 0.6952159559297533,
+      "capex_growth_gap": 0.3916107991865636,
+      "net_debt_change": 110070000000.0,
+      "net_debt_change_funding_ratio": 0.2536765468461554,
+      "ocf_growth": 0.30360515674318966,
+      "receivables_growth": 0.2602344980458495,
+      "receivables_growth_gap": 0.08916730600506062,
+      "revenue_growth": 0.1710671920407889,
+      "self_funding_ratio": 1.4220475271895072
+    },
+    "model_version": "financial-evidence-v1",
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  },
+  {
+    "as_of": "2026-08-12T08:00:00+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 173028000000.0,
+        "capex_ttm_prior": 107656000000.0,
+        "cash": 78213000000.0,
+        "cash_prior": 57741000000.0,
+        "debt": 132224000000.0,
+        "debt_prior": 55723000000.0,
+        "ocf_ttm": 161403000000.0,
+        "ocf_ttm_prior": 121137000000.0,
+        "period_end": "2026-06-30",
+        "published_at": "2026-07-31",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 88092000000.0,
+        "receivables_prior": 57415000000.0,
+        "revenue_ttm": 775680000000.0,
+        "revenue_ttm_prior": 670038000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 132402000000.0,
+        "capex_ttm_prior": 66980000000.0,
+        "cash": 55911000000.0,
+        "cash_prior": 21036000000.0,
+        "debt": 100164000000.0,
+        "debt_prior": 24607000000.0,
+        "ocf_ttm": 185675000000.0,
+        "ocf_ttm_prior": 133708000000.0,
+        "period_end": "2026-06-30",
+        "published_at": "2026-07-23",
+        "quality_flags": [
+          "fallback_tag:revenue"
+        ],
+        "receivables": 69175000000.0,
+        "receivables_prior": 55048000000.0,
+        "revenue_ttm": 445867000000.0,
+        "revenue_ttm_prior": 371399000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "Revenues"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 75747000000.0,
+        "capex_ttm_prior": 43797000000.0,
+        "cash": 23426000000.0,
+        "cash_prior": 28750000000.0,
+        "debt": 58748000000.0,
+        "debt_prior": 28829000000.0,
+        "ocf_ttm": 124000000000.0,
+        "ocf_ttm_prior": 96108000000.0,
+        "period_end": "2026-03-31",
+        "published_at": "2026-04-30",
+        "quality_flags": [],
+        "receivables": 17470000000.0,
+        "receivables_prior": 14514000000.0,
+        "revenue_ttm": 214962000000.0,
+        "revenue_ttm_prior": 170359000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 115948000000.0,
+        "capex_ttm_prior": 64551000000.0,
+        "cash": 20935000000.0,
+        "cash_prior": 30242000000.0,
+        "debt": 40294000000.0,
+        "debt_prior": 43151000000.0,
+        "ocf_ttm": 182935000000.0,
+        "ocf_ttm_prior": 136162000000.0,
+        "period_end": "2026-06-30",
+        "published_at": "2026-07-29",
+        "quality_flags": [],
+        "receivables": 80876000000.0,
+        "receivables_prior": 69905000000.0,
+        "revenue_ttm": 331839000000.0,
+        "revenue_ttm_prior": 281724000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 497125000000.0,
+      "aggregate_capex_ttm_prior": 282984000000.0,
+      "aggregate_net_debt": 152945000000.0,
+      "aggregate_net_debt_prior": 14541000000.0,
+      "aggregate_ocf_ttm": 654013000000.0,
+      "aggregate_ocf_ttm_prior": 487115000000.0,
+      "aggregate_receivables": 255613000000.0,
+      "aggregate_receivables_prior": 196882000000.0,
+      "aggregate_revenue_ttm": 1768348000000.0,
+      "aggregate_revenue_ttm_prior": 1493520000000.0,
+      "capex_growth": 0.7567247618239901,
+      "capex_growth_gap": 0.4140993037699372,
+      "net_debt_change": 138404000000.0,
+      "net_debt_change_funding_ratio": 0.2784088508926326,
+      "ocf_growth": 0.34262545805405287,
+      "receivables_growth": 0.29830558405542407,
+      "receivables_growth_gap": 0.11429197861324725,
+      "revenue_growth": 0.18401360544217682,
+      "self_funding_ratio": 1.3155906462157405
+    },
+    "model_version": "financial-evidence-v1",
+    "nfci": {
+      "date": "2026-07-31",
+      "source_url": "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv",
+      "value": -0.529
+    },
+    "retrieved_at": "2026-08-12T08:00:00+00:00"
+  }
+]

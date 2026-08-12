@@ -1,0 +1,903 @@
+[
+  {
+    "calculation_as_of": "2016-01-07T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-01-01",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-01-07",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.329
+  },
+  {
+    "calculation_as_of": "2016-01-14T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-01-08",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-01-14",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.312
+  },
+  {
+    "calculation_as_of": "2016-01-21T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-01-15",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-01-21",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.296
+  },
+  {
+    "calculation_as_of": "2016-01-28T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-01-22",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-01-28",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.284
+  },
+  {
+    "calculation_as_of": "2016-02-04T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-01-29",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-02-04",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.276
+  },
+  {
+    "calculation_as_of": "2016-02-11T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-02-05",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-02-11",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.272
+  },
+  {
+    "calculation_as_of": "2016-02-18T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-02-12",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-02-18",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.272
+  },
+  {
+    "calculation_as_of": "2016-02-25T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-02-19",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-02-25",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.283
+  },
+  {
+    "calculation_as_of": "2016-03-03T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-02-26",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-03-03",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.298
+  },
+  {
+    "calculation_as_of": "2016-03-10T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-03-04",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-03-10",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.318
+  },
+  {
+    "calculation_as_of": "2016-03-17T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-03-11",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-03-17",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.337
+  },
+  {
+    "calculation_as_of": "2016-03-24T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-03-18",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-03-24",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.355
+  },
+  {
+    "calculation_as_of": "2016-03-31T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-03-25",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-03-31",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.367
+  },
+  {
+    "calculation_as_of": "2016-04-07T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-04-01",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-04-07",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.377
+  },
+  {
+    "calculation_as_of": "2016-04-14T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-04-08",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-04-14",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.382
+  },
+  {
+    "calculation_as_of": "2016-04-21T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-04-15",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-04-21",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.385
+  },
+  {
+    "calculation_as_of": "2016-04-28T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-04-22",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-04-28",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.387
+  },
+  {
+    "calculation_as_of": "2016-05-05T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-04-29",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-05-05",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.386
+  },
+  {
+    "calculation_as_of": "2016-05-12T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-05-06",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-05-12",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.384
+  },
+  {
+    "calculation_as_of": "2016-05-19T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-05-13",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-05-19",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.381
+  },
+  {
+    "calculation_as_of": "2016-05-26T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-05-20",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-05-26",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.377
+  },
+  {
+    "calculation_as_of": "2016-06-02T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-05-27",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-06-02",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.372
+  },
+  {
+    "calculation_as_of": "2016-06-09T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-06-03",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-06-09",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.366
+  },
+  {
+    "calculation_as_of": "2016-06-16T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-06-10",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-06-16",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.36
+  },
+  {
+    "calculation_as_of": "2016-06-23T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-06-17",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-06-23",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.353
+  },
+  {
+    "calculation_as_of": "2016-06-30T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-06-24",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-06-30",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.349
+  },
+  {
+    "calculation_as_of": "2016-07-07T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-07-01",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-07-07",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.347
+  },
+  {
+    "calculation_as_of": "2016-07-14T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-07-08",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-07-14",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.35
+  },
+  {
+    "calculation_as_of": "2016-07-21T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-07-15",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-07-21",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.356
+  },
+  {
+    "calculation_as_of": "2016-07-28T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-07-22",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-07-28",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.362
+  },
+  {
+    "calculation_as_of": "2016-08-04T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-07-29",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-08-04",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.367
+  },
+  {
+    "calculation_as_of": "2016-08-11T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-08-05",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-08-11",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.37
+  },
+  {
+    "calculation_as_of": "2016-08-18T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-08-12",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-08-18",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.371
+  },
+  {
+    "calculation_as_of": "2016-08-25T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-08-19",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-08-25",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.368
+  },
+  {
+    "calculation_as_of": "2016-09-01T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-08-26",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-09-01",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.363
+  },
+  {
+    "calculation_as_of": "2016-09-08T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-09-02",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-09-08",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.356
+  },
+  {
+    "calculation_as_of": "2016-09-15T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-09-09",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-09-15",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.349
+  },
+  {
+    "calculation_as_of": "2016-09-22T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-09-16",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-09-22",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.345
+  },
+  {
+    "calculation_as_of": "2016-09-29T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-09-23",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-09-29",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.343
+  },
+  {
+    "calculation_as_of": "2016-10-06T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-09-30",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-10-06",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.346
+  },
+  {
+    "calculation_as_of": "2016-10-13T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-10-07",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-10-13",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.353
+  },
+  {
+    "calculation_as_of": "2016-10-20T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-10-14",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-10-20",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.362
+  },
+  {
+    "calculation_as_of": "2016-10-27T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-10-21",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-10-27",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.373
+  },
+  {
+    "calculation_as_of": "2016-11-03T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-10-28",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-11-03",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.386
+  },
+  {
+    "calculation_as_of": "2016-11-10T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-11-04",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-11-10",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.398
+  },
+  {
+    "calculation_as_of": "2016-11-17T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-11-11",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-11-17",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.412
+  },
+  {
+    "calculation_as_of": "2016-11-24T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-11-18",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-11-24",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.425
+  },
+  {
+    "calculation_as_of": "2016-12-01T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-11-25",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-12-01",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.436
+  },
+  {
+    "calculation_as_of": "2016-12-08T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-12-02",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-12-08",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.446
+  },
+  {
+    "calculation_as_of": "2016-12-15T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-12-09",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-12-15",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.454
+  },
+  {
+    "calculation_as_of": "2016-12-22T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-12-16",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-12-22",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.461
+  },
+  {
+    "calculation_as_of": "2016-12-29T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-12-23",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2016-12-29",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.467
+  },
+  {
+    "calculation_as_of": "2017-01-05T12:30:00+00:00",
+    "catalog_version": 1,
+    "data_period": "2016-12-30",
+    "indicator_id": "nfci_shock",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2017-01-05",
+    "quality_status": [
+      "official_csv"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
+    ],
+    "unit": "index",
+    "value": -0.473
+  }
+]

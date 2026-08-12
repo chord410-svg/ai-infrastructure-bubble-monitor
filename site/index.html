@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="以可驗證的官方數值監測 AI 基礎建設泡沫壓力。">
+  <title>AI 泡沫監測站｜可驗證的量化證據</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="AI 泡沫監測站首頁">
+        <strong>AI 泡沫監測站</strong>
+        <span>可驗證的量化證據</span>
+      </a>
+      <nav aria-label="主要導覽">
+        <a href="#top">總覽</a>
+        <a href="#evidence">指標</a>
+        <a href="#method">方法</a>
+        <a href="#sources">資料來源</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="container hero" aria-labelledby="state-title">
+      <div id="status-banner" class="status-banner" role="status">
+        <span class="status-symbol" aria-hidden="true">!</span>
+        <div>
+          <h1 id="state-title">正式資料尚未接入</h1>
+          <p id="state-description">目前不顯示分數，避免將示意值誤認為真實判斷。</p>
+        </div>
+        <span id="model-version" class="model-chip">模型 v1</span>
+      </div>
+
+      <div id="stale-warning" class="stale-warning" role="alert">尚未有成功更新紀錄。</div>
+
+      <div class="score-grid" aria-label="核心監測結果">
+        <article class="score-panel">
+          <div class="score-mark" aria-hidden="true">∿</div>
+          <div>
+            <p class="eyebrow">泡沫累積面</p>
+            <h2>結構壓力</h2>
+            <p id="structural-score" class="score-value">—</p>
+            <p class="score-note">0–100 歷史壓力百分位，不是崩盤機率</p>
+          </div>
+        </article>
+        <article class="score-panel">
+          <div class="score-mark fracture" aria-hidden="true">ϟ</div>
+          <div>
+            <p class="eyebrow">金融確認面</p>
+            <h2>破裂觸發</h2>
+            <p id="trigger-score" class="score-value">—</p>
+            <p class="score-note">0–100 金融條件與公司財務惡化百分位</p>
+          </div>
+        </article>
+        <article class="score-panel coverage-panel">
+          <div class="coverage-ring" aria-hidden="true"><span id="coverage-ring-value">0</span></div>
+          <div>
+            <p class="eyebrow">雙層資料覆蓋</p>
+            <h2>已納入 <span id="coverage-count">0 / 12</span></h2>
+            <p id="confidence" class="confidence-value">v1 資料信心 0%</p>
+            <p id="confidence-detail" class="score-note">等待公司覆蓋與資料新鮮度驗證</p>
+            <p class="score-note">未接資料只影響覆蓋，不會補成零風險</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="judgement-grid" aria-label="目前判讀依據">
+        <article><p class="kicker">SUPPORTING EVIDENCE</p><h2>支持訊號</h2><ul id="reason-list"><li>等待正式資料</li></ul></article>
+        <article><p class="kicker">COUNTER EVIDENCE</p><h2>反證</h2><ul id="counter-list"><li>等待正式資料</li></ul></article>
+      </div>
+
+      <ol class="causal-rail" aria-label="AI 泡沫證據鏈">
+        <li><span class="rail-index">01</span><div><strong>需求</strong><small>Token 與有效算力</small></div><span class="rail-status">尚未涵蓋</span></li>
+        <li><span class="rail-index">02</span><div><strong>供給</strong><small>GPU、機房與電力</small></div><span class="rail-status">尚未涵蓋</span></li>
+        <li><span class="rail-index">03</span><div><strong>投資與現金流</strong><small>財報與融資自給</small></div><span class="rail-status active">規劃 4 項</span></li>
+        <li><span class="rail-index">04</span><div><strong>市場與融資壓力</strong><small>金融條件與估值</small></div><span class="rail-status active">規劃 1 項</span></li>
+      </ol>
+    </section>
+
+    <section id="evidence" class="container section" aria-labelledby="indicator-heading">
+      <div class="section-heading">
+        <div><p class="kicker">EVIDENCE MAP</p><h2 id="indicator-heading">證據地圖</h2></div>
+        <p>每個分數都能一路追到原始數值、公式與官方來源。</p>
+      </div>
+      <div id="indicator-list" class="evidence-list">
+        <details>
+          <summary><span>01</span><strong>需求</strong><em>尚未涵蓋</em></summary>
+          <p class="empty-detail">Token 與有效算力資料尚未有穩定、公開且可長期自動化的來源。</p>
+        </details>
+        <details>
+          <summary><span>02</span><strong>供給</strong><em>尚未涵蓋</em></summary>
+          <p class="empty-detail">GPU 租金、可用容量、資料中心與電力資料仍列為證據缺口。</p>
+        </details>
+        <details open>
+          <summary><span>03</span><strong>投資與現金流</strong><em>等待正式資料</em></summary>
+          <div class="indicator-placeholder">
+            <p>CapEx－營業現金流成長差</p><p>現金自給率 OCF／CapEx</p>
+            <p>應收帳款－營收成長差</p><p>淨負債增加／CapEx</p>
+          </div>
+        </details>
+        <details>
+          <summary><span>04</span><strong>市場與融資壓力</strong><em>等待正式資料</em></summary>
+          <p class="empty-detail">第一版使用 Chicago Fed NFCI；估值與 AI 專屬融資成本尚未涵蓋。</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="trend" class="container section split-section" aria-labelledby="trend-heading">
+      <div>
+        <p class="kicker">VERSIONED HISTORY</p>
+        <h2 id="trend-heading">12 週趨勢</h2>
+        <p>模型升級時保留舊版，趨勢會標示版本分界。</p>
+      </div>
+      <div class="trend-frame">
+        <canvas id="trend-chart" width="900" height="260" aria-label="結構壓力與破裂觸發趨勢圖"></canvas>
+        <div id="trend-fallback" class="trend-empty">累積第一筆正式結果後顯示。</div>
+      </div>
+    </section>
+
+    <section id="method" class="container section" aria-labelledby="method-heading">
+      <div class="section-heading">
+        <div><p class="kicker">METHOD</p><h2 id="method-heading">分數怎麼算</h2></div>
+        <p>先轉為歷史風險百分位，再依固定版本權重加總。</p>
+      </div>
+      <div class="method-grid">
+        <article>
+          <h3>結構壓力</h3>
+          <p><b>35%</b> CapEx／現金流成長差</p><p><b>30%</b> 現金自給率風險</p>
+          <p><b>20%</b> 應收帳款／營收差</p><p><b>15%</b> 淨負債增加／CapEx</p>
+        </article>
+        <article>
+          <h3>破裂觸發</h3>
+          <p><b>45%</b> NFCI 金融條件衝擊</p><p><b>30%</b> 現金自給率惡化</p>
+          <p><b>25%</b> 應收帳款差距加速</p>
+        </article>
+        <article class="method-rule">
+          <h3>不可妥協的規則</h3>
+          <p>至少 20 筆會計歷史；未公布、過期或缺失資料不補零，也不重新分配權重。</p>
+          <a href="#evidence" id="method-link">查看逐項計算與官方來源 <span aria-hidden="true">↑</span></a>
+        </article>
+      </div>
+      <div class="method-rationale" aria-labelledby="rationale-heading">
+        <div class="rationale-intro">
+          <p class="kicker">WHY THESE INDICATORS</p>
+          <h3 id="rationale-heading">採用理由與推導路徑</h3>
+          <p>AI 泡沫不等於股價下跌。v1 先檢查建設速度能否由營運現金流支撐，再看金融環境是否成為壓力放大器。</p>
+        </div>
+        <ol>
+          <li><b>投資增速</b><span>CapEx 比營業現金流成長更快，表示建設承諾正在超前內生資金。</span></li>
+          <li><b>現金自給</b><span>OCF／CapEx 下降時，同樣的建設更可能需要動用現金或外部融資。</span></li>
+          <li><b>轉現品質</b><span>應收帳款快於營收，只是現金轉換的警訊；它不是需求崩潰的直接證明。</span></li>
+          <li><b>金融觸發</b><span>NFCI 衡量整體融資條件是否收緊，用來確認壓力是否可能被放大，而非判斷 AI 熱度。</span></li>
+        </ol>
+        <p class="rationale-limit"><b>解讀限制：</b>需求、GPU 供給、資料中心電力與估值仍未接入，因此高結構分數只能表示「財務擴張壓力位於高歷史區間」，不能單獨證明 AI 泡沫將破裂。</p>
+      </div>
+    </section>
+
+    <section id="missing-evidence" class="container missing-panel" aria-labelledby="missing-heading">
+      <p class="kicker">KNOWN GAPS</p>
+      <h2 id="missing-heading">目前沒有測到什麼</h2>
+      <div id="missing-list" class="missing-list">
+        <span>Token 需求</span><span>有效算力</span><span>GPU 租金與容量</span><span>資料中心與電力</span><span>AI 估值</span>
+      </div>
+      <p>缺失證據會降低覆蓋率並限制結論，不會用猜測值填補。</p>
+    </section>
+
+    <section id="sources" class="container section sources" aria-labelledby="source-heading">
+      <div class="section-heading">
+        <div><p class="kicker">PRIMARY SOURCES</p><h2 id="source-heading">官方資料來源</h2></div>
+        <p>只採用不需付費金鑰、能保存日期與來源網址的數值資料。</p>
+      </div>
+      <ul id="source-list" class="source-list">
+        <li><a href="https://www.sec.gov/search-filings/edgar-application-programming-interfaces" target="_blank" rel="noreferrer">SEC EDGAR Company Facts <span>公司財報 ↗</span></a></li>
+        <li><a href="https://www.chicagofed.org/research/data/nfci/current-data" target="_blank" rel="noreferrer">Chicago Fed NFCI <span>金融條件 ↗</span></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Microsoft · Amazon · Alphabet · Meta</p>
+      <p>不含新聞或文字情緒分析｜不是投資建議</p>
+      <p id="last-updated">最後成功更新：尚無</p>
+    </div>
+  </footer>
+  <noscript><p class="noscript">JavaScript 未啟用；方法與來源仍可閱讀，但最新量化結果無法載入。</p></noscript>
+</body>
+</html>

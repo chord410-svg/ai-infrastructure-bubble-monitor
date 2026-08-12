@@ -2,6 +2,10 @@
 
 Date: 2026-08-11
 
+## Implementation status
+
+Implementation follows the approved plan in `docs/superpowers/plans/2026-08-11-ai-infrastructure-bubble-monitor-implementation.md` on branch `feature/ai-bubble-monitor-v1`. The implemented public interface expands the approved single-page design into four fixed evidence modules—demand, supply, investment and cash flow, and market and financing pressure—while preserving Financial Evidence V1 as the only active scoring model. Twelve indicators are visible in catalog version 1; five are enabled and seven remain explicit evidence gaps. Release verification and the initial live-data commit determine the final release commit identifier.
+
 ## 1. Product intent
 
 Build a public, single-page GitHub Pages site that lets a non-technical investor understand within 30 seconds:

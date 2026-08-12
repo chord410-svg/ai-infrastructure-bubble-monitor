@@ -1,0 +1,94 @@
+name: Update evidence and deploy Pages
+
+on:
+  schedule:
+    - cron: "17 8 * * 5"
+  workflow_dispatch:
+
+concurrency:
+  group: ai-bubble-monitor-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38 # v5.4.0
+        with:
+          python-version: "3.12"
+
+      - name: Verify identified SEC access
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${SEC_USER_AGENT}" || "${SEC_USER_AGENT}" == *"example.invalid"* || "${SEC_USER_AGENT}" == *"example.com"* || "${SEC_USER_AGENT}" != *"@"* ]]; then
+            echo "Repository variable SEC_USER_AGENT must identify the maintainer and real contact email." >&2
+            exit 1
+          fi
+
+      - name: Run tests before collection
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Collect and validate evidence
+        id: update
+        shell: bash
+        run: |
+          set -euo pipefail
+          UPDATE_SUMMARY="$(python3 -m src.update --root .)"
+          echo "${UPDATE_SUMMARY}" | tee update-summary.jsonl
+          {
+            echo "## AI bubble monitor update"
+            echo '```json'
+            echo "${UPDATE_SUMMARY}"
+            echo '```'
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Run tests after generation
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Commit validated snapshots
+        if: github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "$(git status --porcelain -- site/data data/observations)" ]]; then
+            echo "No evidence changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data data/observations
+          git commit -m "data: refresh verified monitor snapshot"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Configure GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
+
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
+        with:
+          path: site
+
+      - name: Deploy GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        id: deployment
+        uses: actions/deploy-pages@d6db90192e2277cd2f9b099e6c4b675a59161395 # v4.0.5

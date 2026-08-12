@@ -1,0 +1,64 @@
+{
+  "entityName": "Example Corp",
+  "cik": 789019,
+  "facts": {
+    "us-gaap": {
+      "NetCashProvidedByUsedInOperatingActivities": {"units": {"USD": [
+        {"start":"2024-01-01","end":"2024-03-31","val":20,"accn":"a1","fy":2024,"fp":"Q1","form":"10-Q","filed":"2024-04-30"},
+        {"start":"2024-01-01","end":"2024-06-30","val":45,"accn":"a2","fy":2024,"fp":"Q2","form":"10-Q","filed":"2024-07-30"},
+        {"start":"2024-01-01","end":"2024-09-30","val":72,"accn":"a3","fy":2024,"fp":"Q3","form":"10-Q","filed":"2024-10-30"},
+        {"start":"2024-01-01","end":"2024-12-31","val":102,"accn":"a4","fy":2024,"fp":"FY","form":"10-K","filed":"2025-02-15"},
+        {"start":"2025-01-01","end":"2025-03-31","val":24,"accn":"b1","fy":2025,"fp":"Q1","form":"10-Q","filed":"2025-04-30"},
+        {"start":"2025-01-01","end":"2025-06-30","val":52,"accn":"b2","fy":2025,"fp":"Q2","form":"10-Q","filed":"2025-07-30"},
+        {"start":"2025-01-01","end":"2025-09-30","val":84,"accn":"b3","fy":2025,"fp":"Q3","form":"10-Q","filed":"2025-10-30"},
+        {"start":"2025-01-01","end":"2025-12-31","val":120,"accn":"b4","fy":2025,"fp":"FY","form":"10-K","filed":"2026-02-15"},
+        {"start":"2026-01-01","end":"2026-03-31","val":31,"accn":"c1","fy":2026,"fp":"Q1","form":"10-Q","filed":"2026-04-30"},
+        {"start":"2026-01-01","end":"2026-06-30","val":66,"accn":"c2","fy":2026,"fp":"Q2","form":"10-Q","filed":"2026-07-30"},
+        {"start":"2026-01-01","end":"2026-06-30","val":999,"accn":"future","fy":2026,"fp":"Q2","form":"10-Q/A","filed":"2026-08-10"}
+      ]}},
+      "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations": {"units": {"USD": [
+        {"start":"2026-01-01","end":"2026-06-30","val":600,"accn":"lower-priority","fy":2026,"fp":"Q2","form":"10-Q","filed":"2026-07-29"}
+      ]}},
+      "PaymentsToAcquirePropertyPlantAndEquipment": {"units": {"USD": [
+        {"start":"2024-01-01","end":"2024-03-31","val":10,"accn":"p1","fy":2024,"fp":"Q1","form":"10-Q","filed":"2024-04-30"},
+        {"start":"2024-01-01","end":"2024-06-30","val":22,"accn":"p2","fy":2024,"fp":"Q2","form":"10-Q","filed":"2024-07-30"},
+        {"start":"2024-01-01","end":"2024-09-30","val":35,"accn":"p3","fy":2024,"fp":"Q3","form":"10-Q","filed":"2024-10-30"},
+        {"start":"2024-01-01","end":"2024-12-31","val":50,"accn":"p4","fy":2024,"fp":"FY","form":"10-K","filed":"2025-02-15"},
+        {"start":"2025-01-01","end":"2025-03-31","val":13,"accn":"p5","fy":2025,"fp":"Q1","form":"10-Q","filed":"2025-04-30"},
+        {"start":"2025-01-01","end":"2025-06-30","val":28,"accn":"p6","fy":2025,"fp":"Q2","form":"10-Q","filed":"2025-07-30"},
+        {"start":"2025-01-01","end":"2025-09-30","val":45,"accn":"p7","fy":2025,"fp":"Q3","form":"10-Q","filed":"2025-10-30"},
+        {"start":"2025-01-01","end":"2025-12-31","val":65,"accn":"p8","fy":2025,"fp":"FY","form":"10-K","filed":"2026-02-15"},
+        {"start":"2026-01-01","end":"2026-03-31","val":19,"accn":"p9","fy":2026,"fp":"Q1","form":"10-Q","filed":"2026-04-30"},
+        {"start":"2026-01-01","end":"2026-06-30","val":41,"accn":"p10","fy":2026,"fp":"Q2","form":"10-Q","filed":"2026-07-30"}
+      ]}},
+      "RevenueFromContractWithCustomerExcludingAssessedTax": {"units": {"USD": [
+        {"start":"2024-01-01","end":"2024-03-31","val":50,"accn":"r1","fy":2024,"fp":"Q1","form":"10-Q","filed":"2024-04-30"},
+        {"start":"2024-01-01","end":"2024-06-30","val":105,"accn":"r2","fy":2024,"fp":"Q2","form":"10-Q","filed":"2024-07-30"},
+        {"start":"2024-01-01","end":"2024-09-30","val":165,"accn":"r3","fy":2024,"fp":"Q3","form":"10-Q","filed":"2024-10-30"},
+        {"start":"2024-01-01","end":"2024-12-31","val":230,"accn":"r4","fy":2024,"fp":"FY","form":"10-K","filed":"2025-02-15"},
+        {"start":"2025-01-01","end":"2025-03-31","val":58,"accn":"r5","fy":2025,"fp":"Q1","form":"10-Q","filed":"2025-04-30"},
+        {"start":"2025-01-01","end":"2025-06-30","val":121,"accn":"r6","fy":2025,"fp":"Q2","form":"10-Q","filed":"2025-07-30"},
+        {"start":"2025-01-01","end":"2025-09-30","val":189,"accn":"r7","fy":2025,"fp":"Q3","form":"10-Q","filed":"2025-10-30"},
+        {"start":"2025-01-01","end":"2025-12-31","val":262,"accn":"r8","fy":2025,"fp":"FY","form":"10-K","filed":"2026-02-15"},
+        {"start":"2026-01-01","end":"2026-03-31","val":66,"accn":"r9","fy":2026,"fp":"Q1","form":"10-Q","filed":"2026-04-30"},
+        {"start":"2026-01-01","end":"2026-06-30","val":138,"accn":"r10","fy":2026,"fp":"Q2","form":"10-Q","filed":"2026-07-30"}
+      ]}},
+      "AccountsReceivableNetCurrent": {"units": {"USD": [
+        {"end":"2025-06-30","val":42,"accn":"ar1","fy":2025,"fp":"Q2","form":"10-Q","filed":"2025-07-30"},
+        {"end":"2026-06-30","val":50,"accn":"ar2","fy":2026,"fp":"Q2","form":"10-Q","filed":"2026-07-30"}
+      ]}},
+      "LongTermDebtCurrent": {"units": {"USD": [
+        {"end":"2025-06-30","val":5,"accn":"dc1","fy":2025,"fp":"Q2","form":"10-Q","filed":"2025-07-30"},
+        {"end":"2026-06-30","val":7,"accn":"dc2","fy":2026,"fp":"Q2","form":"10-Q","filed":"2026-07-30"}
+      ]}},
+      "LongTermDebtNoncurrent": {"units": {"USD": [
+        {"end":"2025-06-30","val":30,"accn":"dn1","fy":2025,"fp":"Q2","form":"10-Q","filed":"2025-07-30"},
+        {"end":"2026-06-30","val":35,"accn":"dn2","fy":2026,"fp":"Q2","form":"10-Q","filed":"2026-07-30"}
+      ]}},
+      "CashAndCashEquivalentsAtCarryingValue": {"units": {"USD": [
+        {"end":"2025-06-30","val":20,"accn":"cash1","fy":2025,"fp":"Q2","form":"10-Q","filed":"2025-07-30"},
+        {"end":"2026-06-30","val":18,"accn":"cash2","fy":2026,"fp":"Q2","form":"10-Q","filed":"2026-07-30"}
+      ]}}
+    }
+  }
+}

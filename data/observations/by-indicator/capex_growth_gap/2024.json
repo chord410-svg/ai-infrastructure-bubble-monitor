@@ -1,0 +1,86 @@
+[
+  {
+    "calculation_as_of": "2024-02-28T23:59:59+00:00",
+    "catalog_version": 1,
+    "data_period": "2023-12-31",
+    "indicator_id": "capex_growth_gap",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2024-02-02",
+    "quality_status": [
+      "fallback_tag:capex",
+      "fallback_tag:debt_noncurrent"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    ],
+    "unit": "decimal",
+    "value": -0.34546098058162233
+  },
+  {
+    "calculation_as_of": "2024-05-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "data_period": "2024-03-31",
+    "indicator_id": "capex_growth_gap",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2024-05-01",
+    "quality_status": [
+      "fallback_tag:capex",
+      "fallback_tag:debt_noncurrent"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    ],
+    "unit": "decimal",
+    "value": -0.3585178655036705
+  },
+  {
+    "calculation_as_of": "2024-08-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "data_period": "2024-06-30",
+    "indicator_id": "capex_growth_gap",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2024-08-02",
+    "quality_status": [
+      "fallback_tag:capex",
+      "fallback_tag:debt_noncurrent"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    ],
+    "unit": "decimal",
+    "value": -0.1363324773136958
+  },
+  {
+    "calculation_as_of": "2024-11-15T23:59:59+00:00",
+    "catalog_version": 1,
+    "data_period": "2024-09-30",
+    "indicator_id": "capex_growth_gap",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2024-11-01",
+    "quality_status": [
+      "fallback_tag:capex",
+      "fallback_tag:debt_noncurrent"
+    ],
+    "retrieved_at": "2026-08-12T08:00:00+00:00",
+    "source_urls": [
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    ],
+    "unit": "decimal",
+    "value": 0.13812510197906747
+  }
+]

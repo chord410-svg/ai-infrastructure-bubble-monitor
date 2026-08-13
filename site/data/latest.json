@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-13T09:51:44.679878+00:00",
+  "as_of": "2026-08-13T10:41:37.227604+00:00",
   "basket": [
     "MSFT",
     "AMZN",
@@ -31,7 +31,7 @@
       "formula": "全市場 Token 使用量；正式來源接入後定義",
       "id": "token_demand",
       "label": "Token 使用量",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 52,
       "missing_reason": "缺少穩定且公開的全市場資料",
       "model_roles": [],
@@ -53,7 +53,7 @@
       "formula": "Token 數量 × 每 Token FLOPs，並校正硬體效率",
       "id": "effective_compute",
       "label": "有效算力需求",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 24,
       "missing_reason": "缺少一致的 FLOPs 與效率資料",
       "model_roles": [],
@@ -75,7 +75,7 @@
       "formula": "標準化 GPU 每小時租金與供應可得性",
       "id": "gpu_rental",
       "label": "GPU 租金",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 52,
       "missing_reason": "公開報價缺乏長期一致性",
       "model_roles": [],
@@ -97,7 +97,7 @@
       "formula": "可驗證的 GPU 可用容量",
       "id": "gpu_capacity",
       "label": "GPU 可用容量",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 24,
       "missing_reason": "缺少可驗證的全市場容量資料",
       "model_roles": [],
@@ -119,7 +119,7 @@
       "formula": "資料中心新增容量與電力可用量",
       "id": "datacenter_power",
       "label": "資料中心與電力容量",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 20,
       "missing_reason": "資料口徑與更新頻率尚未統一",
       "model_roles": [],
@@ -173,7 +173,7 @@
       "formula": "CapEx TTM 年增率 − 營業現金流 TTM 年增率",
       "id": "capex_growth_gap",
       "label": "CapEx－營業現金流成長差",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 20,
       "missing_reason": null,
       "model_roles": [
@@ -258,7 +258,7 @@
       "formula": "營業現金流 TTM ÷ CapEx TTM",
       "id": "self_funding",
       "label": "現金自給率 OCF／CapEx",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 20,
       "missing_reason": null,
       "model_roles": [
@@ -351,7 +351,7 @@
       "formula": "應收帳款年增率 − 營收 TTM 年增率",
       "id": "receivables_growth_gap",
       "label": "應收帳款－營收成長差",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 20,
       "missing_reason": null,
       "model_roles": [
@@ -439,7 +439,7 @@
       "formula": "max(0, 淨負債年增額) ÷ CapEx TTM",
       "id": "net_debt_change_funding",
       "label": "淨負債增加／CapEx",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 20,
       "missing_reason": null,
       "model_roles": [
@@ -498,7 +498,7 @@
       "formula": "max(NFCI 水準百分位, NFCI 13 週變化百分位)",
       "id": "nfci_shock",
       "label": "NFCI 金融條件衝擊",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 15,
       "missing_reason": null,
       "model_roles": [
@@ -538,7 +538,7 @@
       "formula": "AI 估值壓力；正式來源接入後定義",
       "id": "valuation",
       "label": "AI 估值壓力",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 104,
       "missing_reason": "v1 尚未定義無付費來源的可比估值籃子",
       "model_roles": [],
@@ -560,7 +560,7 @@
       "formula": "AI 專屬融資成本；正式來源接入後定義",
       "id": "funding_cost",
       "label": "AI 融資成本",
-      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
+      "last_retrieved": "2026-08-13T10:41:37.227604+00:00",
       "minimum_history": 104,
       "missing_reason": "v1 先以 NFCI 作為廣義金融條件代理",
       "model_roles": [],
@@ -576,7 +576,7 @@
       "update_frequency": "weekly"
     }
   ],
-  "last_successful_update": "2026-08-13T09:51:44.679878+00:00",
+  "last_successful_update": "2026-08-13T10:41:37.227604+00:00",
   "missing_evidence": [
     "TOKEN_DEMAND_UNAVAILABLE",
     "EFFECTIVE_COMPUTE_UNAVAILABLE",
@@ -593,8 +593,7 @@
   },
   "raw_state": "WATCH_NOT_BREAKING",
   "reason_codes": [
-    "STRUCTURAL_PRESSURE_ELEVATED",
-    "PERSISTENCE_PENDING"
+    "STRUCTURAL_PRESSURE_ELEVATED"
   ],
   "schema_version": 1,
   "source_dates": {
@@ -631,6 +630,6 @@
       "url": "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     }
   ],
-  "state": "PRE_BREAK_FINANCIAL",
+  "state": "WATCH_NOT_BREAKING",
   "structural_pressure": 100.0
 }

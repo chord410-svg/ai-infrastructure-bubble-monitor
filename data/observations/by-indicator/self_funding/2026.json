@@ -10,7 +10,7 @@
       "fallback_tag:capex",
       "fallback_tag:revenue"
     ],
-    "retrieved_at": "2026-08-13T10:41:37.227604+00:00",
+    "retrieved_at": "2026-08-13T10:43:23.536976+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
@@ -31,7 +31,7 @@
       "fallback_tag:capex",
       "fallback_tag:revenue"
     ],
-    "retrieved_at": "2026-08-13T10:41:37.227604+00:00",
+    "retrieved_at": "2026-08-13T10:43:23.536976+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
@@ -116,6 +116,27 @@
       "fallback_tag:revenue"
     ],
     "retrieved_at": "2026-08-13T10:41:37.227604+00:00",
+    "source_urls": [
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    ],
+    "unit": "ratio",
+    "value": 1.2929510889890994
+  },
+  {
+    "calculation_as_of": "2026-08-13T10:43:23.536976+00:00",
+    "catalog_version": 1,
+    "data_period": "2026-06-30",
+    "indicator_id": "self_funding",
+    "model_version": "financial-evidence-v1",
+    "published_at": "2026-07-31",
+    "quality_status": [
+      "fallback_tag:capex",
+      "fallback_tag:revenue"
+    ],
+    "retrieved_at": "2026-08-13T10:43:23.536976+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",

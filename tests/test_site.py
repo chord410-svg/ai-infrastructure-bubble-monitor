@@ -26,6 +26,8 @@ class SiteTests(unittest.TestCase):
     def test_site_uses_local_assets_and_no_fabricated_scores(self):
         html = Path("site/index.html").read_text(encoding="utf-8")
         self.assertNotIn("https://cdn.", html)
+        self.assertIn('./styles.css?v=', html)
+        self.assertIn('./app.js?v=', html)
         self.assertNotIn("64 /100", html)
         self.assertNotIn("27 /100", html)
         self.assertIn("正式資料尚未接入", html)

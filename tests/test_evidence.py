@@ -31,6 +31,7 @@ class EvidenceTests(unittest.TestCase):
         self.assertEqual(packet["model"]["version"], "financial-evidence-v1")
         self.assertEqual(packet["coverage"], {"enabled":5,"planned":12})
         self.assertIn("GPU_AVAILABILITY_UNAVAILABLE", packet["missing_evidence"])
+        self.assertIn("AI_FUNDING_COST_UNAVAILABLE", packet["missing_evidence"])
         self.assertIn("reason_codes", packet)
         self.assertIn("counter_evidence", packet)
         self.assertEqual(packet["confidence_breakdown"]["coverage"], 1.0)

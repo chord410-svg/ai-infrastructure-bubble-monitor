@@ -86,7 +86,7 @@ function renderSummary(packet) {
     : copy[1];
   document.querySelector("#structural-score").textContent = staleNow ? "—" : formatScore(packet.structural_pressure);
   document.querySelector("#trigger-score").textContent = staleNow ? "—" : formatScore(packet.financial_break_trigger);
-  document.querySelector("#confidence").textContent = staleNow ? "v1 資料信心 —" : `v1 資料信心 ${Math.round((packet.confidence || 0) * 100)}%`;
+  document.querySelector("#confidence").textContent = staleNow ? "已啟用指標資料信心 —" : `已啟用指標資料信心 ${Math.round((packet.confidence || 0) * 100)}%`;
   const breakdown = packet.confidence_breakdown || {};
   document.querySelector("#confidence-detail").textContent = `公司覆蓋 ${Math.round((breakdown.coverage || 0) * 100)}% · 財報新鮮度 ${Math.round((breakdown.company_freshness || 0) * 100)}% · NFCI 新鮮度 ${Math.round((breakdown.nfci_freshness || 0) * 100)}%`;
   document.querySelector("#coverage-count").textContent = `${packet.coverage.enabled} / ${packet.coverage.planned}`;
@@ -202,6 +202,35 @@ function indicatorTable(items) {
   return wrap;
 }
 
+function moduleEmptyState(items, hasAvailableItems = false) {
+  const wrap = el("div", "details-body module-empty");
+  wrap.append(el(
+    "p",
+    "module-empty-intro",
+    hasAvailableItems
+      ? "以下規劃指標尚未接入，因此不參與目前分數："
+      : "本模組尚未接入正式數值，因此不參與目前分數：",
+  ));
+  const list = el("ul", "planned-list");
+  items.forEach(item => {
+    const row = el("li");
+    row.append(
+      el("strong", "", item.label),
+      el("span", "", item.missing_reason || "尚未接入公開且可持續維護的數值來源"),
+    );
+    list.append(row);
+  });
+  wrap.append(list);
+  return wrap;
+}
+
+function renderRailStatus(moduleId, available, planned) {
+  const status = document.querySelector(`#rail-${moduleId}-status`);
+  if (!status) return;
+  status.textContent = available ? `已接入 ${available}/${planned}` : "尚未涵蓋";
+  status.classList.toggle("active", available > 0);
+}
+
 function renderIndicators(indicators) {
   const container = document.querySelector("#indicator-list");
   container.replaceChildren();
@@ -211,9 +240,13 @@ function renderIndicators(indicators) {
     if (module.id === "investment") details.open = true;
     const summary = el("summary");
     summary.append(el("span", "", module.index), el("strong", "", module.label));
-    const available = items.filter(item => item.status === "available").length;
-    summary.append(el("em", "", available ? `可取得 ${available}/${items.length}` : "尚未涵蓋"));
-    details.append(summary, indicatorTable(items));
+    const availableItems = items.filter(item => item.status === "available");
+    const plannedItems = items.filter(item => item.status === "not_covered");
+    renderRailStatus(module.id, availableItems.length, items.length);
+    summary.append(el("em", "", availableItems.length ? `可取得 ${availableItems.length}/${items.length}` : "尚未涵蓋"));
+    details.append(summary);
+    if (availableItems.length) details.append(indicatorTable(availableItems));
+    if (plannedItems.length) details.append(moduleEmptyState(plannedItems, Boolean(availableItems.length)));
     container.append(details);
   });
 }
@@ -231,9 +264,18 @@ function renderSources(links) {
 
 function drawTrend(history) {
   const valid = history.filter(item => item.structural_pressure != null && item.financial_break_trigger != null).slice(-12);
-  if (!valid.length) return;
   const canvas = document.querySelector("#trend-chart");
   const fallback = document.querySelector("#trend-fallback");
+  const status = document.querySelector("#trend-status");
+  if (!valid.length) {
+    canvas.style.display = "none";
+    status.textContent = "尚無可計分的歷史快照。";
+    fallback.textContent = "歷史資料尚未建立。";
+    return;
+  }
+  status.textContent = valid.length === 1
+    ? "目前累積 1 / 12 週；至少 2 筆後才會形成折線。"
+    : `目前顯示最近 ${valid.length} / 12 週。`;
   canvas.style.display = "block";
   fallback.replaceChildren();
   const table = el("table", "sr-only");
@@ -255,22 +297,31 @@ function drawTrend(history) {
   [["structural_pressure","#b66a00"],["financial_break_trigger","#0b7998"]].forEach(([key,color]) => {
     context.strokeStyle = color; context.lineWidth = 3; context.beginPath();
     valid.forEach((item,index) => {
-      const x = 42 + index * (838 / Math.max(1, valid.length - 1));
+      const x = valid.length === 1 ? 461 : 42 + index * (838 / (valid.length - 1));
       const y = 230 - item[key] * 2;
       index ? context.lineTo(x,y) : context.moveTo(x,y);
     });
     context.stroke();
+    context.fillStyle = color;
+    valid.forEach((item,index) => {
+      const x = valid.length === 1 ? 461 : 42 + index * (838 / (valid.length - 1));
+      const y = 230 - item[key] * 2;
+      context.beginPath(); context.arc(x,y,4,0,Math.PI*2); context.fill();
+    });
   });
 }
 
-function renderMissing(codes) {
+function renderMissing(codes, indicators) {
   const labels = {
     TOKEN_DEMAND_UNAVAILABLE: "Token 需求", EFFECTIVE_COMPUTE_UNAVAILABLE: "有效算力",
     GPU_AVAILABILITY_UNAVAILABLE: "GPU 可用容量", GPU_RENTAL_PRICE_UNAVAILABLE: "GPU 租金",
     DATACENTER_POWER_UNAVAILABLE: "資料中心與電力", AI_VALUATION_UNAVAILABLE: "AI 估值",
+    AI_FUNDING_COST_UNAVAILABLE: "AI 融資成本",
   };
   const list = document.querySelector("#missing-list");
-  list.replaceChildren(...codes.map(code => el("span", "", labels[code] || code)));
+  const catalogGaps = indicators.filter(item => item.status === "not_covered").map(item => item.label);
+  const values = catalogGaps.length ? catalogGaps : codes.map(code => labels[code] || code);
+  list.replaceChildren(...[...new Set(values)].map(value => el("span", "", value)));
 }
 
 async function start() {
@@ -280,7 +331,7 @@ async function start() {
     renderJudgement(packet);
     renderIndicators(packet.indicators || []);
     renderSources(packet.source_links || []);
-    renderMissing(packet.missing_evidence || []);
+    renderMissing(packet.missing_evidence || [], packet.indicators || []);
     drawTrend(history);
     const repositoryMethod = githubRepositoryUrl("tree/main/src");
     if (repositoryMethod) {

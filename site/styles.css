@@ -96,6 +96,12 @@ nav a:hover::after, nav a:focus-visible::after { transform: scaleX(1); }
 .evidence-list summary em { padding: 4px 9px; border-radius: 999px; background: #e7ebee; color: var(--ink-soft); font-size: 10px; font-style: normal; }
 .details-body { padding: 0 18px 24px 70px; }
 .empty-detail, .indicator-placeholder { margin: 0; padding: 20px 18px 24px 70px; color: var(--ink-soft); }
+.module-empty { padding-top: 16px; }
+.module-empty-intro { margin: 0 0 10px; color: var(--ink-soft); font-size: 12px; }
+.planned-list { display: grid; gap: 1px; margin: 0; padding: 0; background: var(--line); list-style: none; }
+.planned-list li { display: grid; grid-template-columns: minmax(160px, .35fr) 1fr; gap: 18px; padding: 13px 15px; background: var(--surface); }
+.planned-list strong { font: 700 15px var(--display); }
+.planned-list span { color: var(--ink-soft); font-size: 12px; }
 .indicator-placeholder { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; }
 .indicator-placeholder p { margin: 0; padding: 14px; border: 1px solid var(--line); }
 .indicator-table { width: 100%; border-collapse: collapse; background: var(--surface); font-size: 13px; }
@@ -122,7 +128,8 @@ nav a:hover::after, nav a:focus-visible::after { transform: scaleX(1); }
 .split-section { display: grid; grid-template-columns: minmax(220px, .35fr) 1fr; gap: 80px; align-items: center; border-top: 1px solid var(--line); }
 .split-section h2 { margin-bottom: 12px; }
 .split-section p { color: var(--ink-soft); }
-.trend-frame { min-height: 280px; display: grid; place-items: center; border-block: 1px solid var(--line-dark); }
+.trend-frame { min-height: 280px; display: grid; align-content: center; border-block: 1px solid var(--line-dark); }
+.trend-status { margin: 0 0 8px; color: var(--ink-soft); font-size: 12px; }
 #trend-chart { display: none; width: 100%; height: auto; }
 .trend-empty { color: var(--ink-soft); }
 
@@ -208,6 +215,8 @@ nav a:hover::after, nav a:focus-visible::after { transform: scaleX(1); }
   .evidence-list summary em { grid-column: 2; justify-self: start; }
   .evidence-list summary::after { grid-column: 3; grid-row: 1 / span 2; }
   .details-body, .empty-detail, .indicator-placeholder { padding: 10px 0 20px; }
+  .module-empty { padding-top: 12px; }
+  .planned-list li { grid-template-columns: 1fr; gap: 4px; }
   .indicator-placeholder { grid-template-columns: 1fr; }
   .method-rationale { padding: 22px 16px; }
   .method-rationale ol { grid-template-columns: 1fr; }

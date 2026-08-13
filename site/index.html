@@ -63,9 +63,9 @@
           <div>
             <p class="eyebrow">雙層資料覆蓋</p>
             <h2>已納入 <span id="coverage-count">0 / 12</span></h2>
-            <p id="confidence" class="confidence-value">v1 資料信心 0%</p>
+            <p id="confidence" class="confidence-value">已啟用指標資料信心 0%</p>
             <p id="confidence-detail" class="score-note">等待公司覆蓋與資料新鮮度驗證</p>
-            <p class="score-note">未接資料只影響覆蓋，不會補成零風險</p>
+            <p class="score-note">信心只衡量已啟用的 5 項；未接資料只影響 12 項總覆蓋，不會補成零風險</p>
           </div>
         </article>
       </div>
@@ -76,10 +76,10 @@
       </div>
 
       <ol class="causal-rail" aria-label="AI 泡沫證據鏈">
-        <li><span class="rail-index">01</span><div><strong>需求</strong><small>Token 與有效算力</small></div><span class="rail-status">尚未涵蓋</span></li>
-        <li><span class="rail-index">02</span><div><strong>供給</strong><small>GPU、機房與電力</small></div><span class="rail-status">尚未涵蓋</span></li>
-        <li><span class="rail-index">03</span><div><strong>投資與現金流</strong><small>財報與融資自給</small></div><span class="rail-status active">規劃 4 項</span></li>
-        <li><span class="rail-index">04</span><div><strong>市場與融資壓力</strong><small>金融條件與估值</small></div><span class="rail-status active">規劃 1 項</span></li>
+        <li><span class="rail-index">01</span><div><strong>需求</strong><small>Token 與有效算力</small></div><span id="rail-demand-status" class="rail-status">尚未涵蓋</span></li>
+        <li><span class="rail-index">02</span><div><strong>供給</strong><small>GPU、機房與電力</small></div><span id="rail-supply-status" class="rail-status">尚未涵蓋</span></li>
+        <li><span class="rail-index">03</span><div><strong>投資與現金流</strong><small>財報與融資自給</small></div><span id="rail-investment-status" class="rail-status">等待資料</span></li>
+        <li><span class="rail-index">04</span><div><strong>市場與融資壓力</strong><small>金融條件與估值</small></div><span id="rail-market-status" class="rail-status">等待資料</span></li>
       </ol>
     </section>
 
@@ -118,8 +118,9 @@
         <p>模型升級時保留舊版，趨勢會標示版本分界。</p>
       </div>
       <div class="trend-frame">
+        <p id="trend-status" class="trend-status" role="status">尚無可計分的歷史快照。</p>
         <canvas id="trend-chart" width="900" height="260" aria-label="結構壓力與破裂觸發趨勢圖"></canvas>
-        <div id="trend-fallback" class="trend-empty">累積第一筆正式結果後顯示。</div>
+        <div id="trend-fallback" class="trend-empty">歷史資料尚未建立。</div>
       </div>
     </section>
 
@@ -165,7 +166,7 @@
       <p class="kicker">KNOWN GAPS</p>
       <h2 id="missing-heading">目前沒有測到什麼</h2>
       <div id="missing-list" class="missing-list">
-        <span>Token 需求</span><span>有效算力</span><span>GPU 租金與容量</span><span>資料中心與電力</span><span>AI 估值</span>
+        <span>Token 需求</span><span>有效算力</span><span>GPU 租金與容量</span><span>資料中心與電力</span><span>AI 估值</span><span>AI 融資成本</span>
       </div>
       <p>缺失證據會降低覆蓋率並限制結論，不會用猜測值填補。</p>
     </section>

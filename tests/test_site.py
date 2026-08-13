@@ -38,6 +38,20 @@ class SiteTests(unittest.TestCase):
         self.assertIn('cache: "no-store"', script)
         self.assertIn("textContent", script)
 
+    def test_incomplete_history_and_planned_indicators_have_clear_states(self):
+        html = Path("site/index.html").read_text(encoding="utf-8")
+        script = Path("site/app.js").read_text(encoding="utf-8")
+        self.assertIn('id="trend-status"', html)
+        self.assertIn("已啟用指標資料信心", html)
+        self.assertIn("valid.length === 1", script)
+        self.assertIn("context.arc", script)
+        self.assertIn("moduleEmptyState", script)
+        self.assertIn("AI_FUNDING_COST_UNAVAILABLE", script)
+        self.assertIn("renderMissing(packet.missing_evidence || [], packet.indicators || [])", script)
+        for module in ("demand", "supply", "investment", "market"):
+            self.assertIn('id="rail-{}-status"'.format(module), html)
+        self.assertIn("renderRailStatus", script)
+
     def test_published_data_is_honest_and_parseable(self):
         packet = json.loads(Path("site/data/latest.json").read_text(encoding="utf-8"))
         from src.validate import validate_packet

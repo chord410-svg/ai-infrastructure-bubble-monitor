@@ -9,5 +9,16 @@
     "raw_state": "PRE_BREAK_FINANCIAL",
     "state": "PRE_BREAK_FINANCIAL",
     "structural_pressure": 100.0
+  },
+  {
+    "as_of": "2026-08-13T09:51:44.679878+00:00",
+    "catalog_version": 1,
+    "confidence": 1.0,
+    "date": "2026-08-13",
+    "financial_break_trigger": 43.28,
+    "model_version": "financial-evidence-v1",
+    "raw_state": "WATCH_NOT_BREAKING",
+    "state": "PRE_BREAK_FINANCIAL",
+    "structural_pressure": 100.0
   }
 ]

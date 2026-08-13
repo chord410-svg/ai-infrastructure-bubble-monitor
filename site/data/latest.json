@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-12T10:19:31.314309+00:00",
+  "as_of": "2026-08-13T09:51:44.679878+00:00",
   "basket": [
     "MSFT",
     "AMZN",
@@ -14,13 +14,15 @@
     "nfci_freshness": 1.0,
     "overall": 1.0
   },
-  "counter_evidence": [],
+  "counter_evidence": [
+    "FINANCIAL_BREAK_NOT_CONFIRMED"
+  ],
   "coverage": {
     "enabled": 5,
     "planned": 12
   },
   "disclaimer": "歷史壓力百分位不是崩盤機率；本工具不是投資建議。",
-  "financial_break_trigger": 45.52,
+  "financial_break_trigger": 43.28,
   "indicators": [
     {
       "calculation_inputs": [],
@@ -29,7 +31,7 @@
       "formula": "全市場 Token 使用量；正式來源接入後定義",
       "id": "token_demand",
       "label": "Token 使用量",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 52,
       "missing_reason": "缺少穩定且公開的全市場資料",
       "model_roles": [],
@@ -51,7 +53,7 @@
       "formula": "Token 數量 × 每 Token FLOPs，並校正硬體效率",
       "id": "effective_compute",
       "label": "有效算力需求",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 24,
       "missing_reason": "缺少一致的 FLOPs 與效率資料",
       "model_roles": [],
@@ -73,7 +75,7 @@
       "formula": "標準化 GPU 每小時租金與供應可得性",
       "id": "gpu_rental",
       "label": "GPU 租金",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 52,
       "missing_reason": "公開報價缺乏長期一致性",
       "model_roles": [],
@@ -95,7 +97,7 @@
       "formula": "可驗證的 GPU 可用容量",
       "id": "gpu_capacity",
       "label": "GPU 可用容量",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 24,
       "missing_reason": "缺少可驗證的全市場容量資料",
       "model_roles": [],
@@ -117,7 +119,7 @@
       "formula": "資料中心新增容量與電力可用量",
       "id": "datacenter_power",
       "label": "資料中心與電力容量",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 20,
       "missing_reason": "資料口徑與更新頻率尚未統一",
       "model_roles": [],
@@ -137,12 +139,12 @@
         {
           "label": "CapEx TTM 年增率",
           "unit": "decimal",
-          "value": 0.7567247618239901
+          "value": 0.7528908628483366
         },
         {
           "label": "營業現金流 TTM 年增率",
           "unit": "decimal",
-          "value": 0.34262545805405287
+          "value": 0.33854848714590946
         }
       ],
       "company_coverage": [
@@ -162,8 +164,8 @@
           "symbol": "GOOGL"
         },
         {
-          "period_end": "2026-03-31",
-          "published_at": "2026-04-30",
+          "period_end": "2026-06-30",
+          "published_at": "2026-07-30",
           "symbol": "META"
         }
       ],
@@ -171,7 +173,7 @@
       "formula": "CapEx TTM 年增率 − 營業現金流 TTM 年增率",
       "id": "capex_growth_gap",
       "label": "CapEx－營業現金流成長差",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 20,
       "missing_reason": null,
       "model_roles": [
@@ -186,7 +188,7 @@
       ],
       "module": "investment",
       "published_at": "2026-07-31",
-      "raw_value": 0.4140993037699372,
+      "raw_value": 0.41434237570242716,
       "risk_direction": "higher",
       "risk_percentile": 100.0,
       "score_contribution": 35.0,
@@ -217,12 +219,12 @@
         {
           "label": "營業現金流 TTM",
           "unit": "USD",
-          "value": 654013000000.0
+          "value": 660314000000.0
         },
         {
           "label": "CapEx TTM",
           "unit": "USD",
-          "value": 497125000000.0
+          "value": 510703000000.0
         },
         {
           "label": "四季風險變化",
@@ -247,8 +249,8 @@
           "symbol": "GOOGL"
         },
         {
-          "period_end": "2026-03-31",
-          "published_at": "2026-04-30",
+          "period_end": "2026-06-30",
+          "published_at": "2026-07-30",
           "symbol": "META"
         }
       ],
@@ -256,7 +258,7 @@
       "formula": "營業現金流 TTM ÷ CapEx TTM",
       "id": "self_funding",
       "label": "現金自給率 OCF／CapEx",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 20,
       "missing_reason": null,
       "model_roles": [
@@ -279,7 +281,7 @@
       ],
       "module": "investment",
       "published_at": "2026-07-31",
-      "raw_value": 1.3155906462157405,
+      "raw_value": 1.2929510889890994,
       "risk_direction": "lower",
       "risk_percentile": 100.0,
       "score_contribution": 30.0,
@@ -310,12 +312,12 @@
         {
           "label": "應收帳款年增率",
           "unit": "decimal",
-          "value": 0.29830558405542407
+          "value": 0.30647115302444594
         },
         {
           "label": "營收 TTM 年增率",
           "unit": "decimal",
-          "value": 0.18401360544217682
+          "value": 0.18620140948690556
         },
         {
           "label": "四季風險變化",
@@ -340,8 +342,8 @@
           "symbol": "GOOGL"
         },
         {
-          "period_end": "2026-03-31",
-          "published_at": "2026-04-30",
+          "period_end": "2026-06-30",
+          "published_at": "2026-07-30",
           "symbol": "META"
         }
       ],
@@ -349,7 +351,7 @@
       "formula": "應收帳款年增率 − 營收 TTM 年增率",
       "id": "receivables_growth_gap",
       "label": "應收帳款－營收成長差",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 20,
       "missing_reason": null,
       "model_roles": [
@@ -372,7 +374,7 @@
       ],
       "module": "investment",
       "published_at": "2026-07-31",
-      "raw_value": 0.11429197861324725,
+      "raw_value": 0.12026974353754039,
       "risk_direction": "higher",
       "risk_percentile": 100.0,
       "score_contribution": 20.0,
@@ -403,12 +405,12 @@
         {
           "label": "淨負債年增額",
           "unit": "USD",
-          "value": 138404000000.0
+          "value": 154536000000.0
         },
         {
           "label": "CapEx TTM",
           "unit": "USD",
-          "value": 497125000000.0
+          "value": 510703000000.0
         }
       ],
       "company_coverage": [
@@ -428,8 +430,8 @@
           "symbol": "GOOGL"
         },
         {
-          "period_end": "2026-03-31",
-          "published_at": "2026-04-30",
+          "period_end": "2026-06-30",
+          "published_at": "2026-07-30",
           "symbol": "META"
         }
       ],
@@ -437,7 +439,7 @@
       "formula": "max(0, 淨負債年增額) ÷ CapEx TTM",
       "id": "net_debt_change_funding",
       "label": "淨負債增加／CapEx",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 20,
       "missing_reason": null,
       "model_roles": [
@@ -452,7 +454,7 @@
       ],
       "module": "investment",
       "published_at": "2026-07-31",
-      "raw_value": 0.2784088508926326,
+      "raw_value": 0.3025946587351161,
       "risk_direction": "higher",
       "risk_percentile": 100.0,
       "score_contribution": 15.0,
@@ -483,38 +485,38 @@
         {
           "label": "NFCI 水準",
           "unit": "index",
-          "value": -0.529
+          "value": -0.549
         },
         {
           "label": "13 週變化",
           "unit": "index",
-          "value": -0.030000000000000027
+          "value": -0.040000000000000036
         }
       ],
       "company_coverage": [],
-      "data_period": "2026-07-31",
+      "data_period": "2026-08-07",
       "formula": "max(NFCI 水準百分位, NFCI 13 週變化百分位)",
       "id": "nfci_shock",
       "label": "NFCI 金融條件衝擊",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 15,
       "missing_reason": null,
       "model_roles": [
         {
           "component": "nfci_shock",
-          "contribution": 18.85,
+          "contribution": 16.61,
           "formula": "max(NFCI 水準歷史百分位, NFCI 13 週變化歷史百分位)",
-          "risk_percentile": 41.88,
+          "risk_percentile": 36.91,
           "score": "trigger",
           "weight": 0.45
         }
       ],
       "module": "market",
-      "published_at": "2026-08-06",
-      "raw_value": -0.529,
+      "published_at": "2026-08-13",
+      "raw_value": -0.549,
       "risk_direction": "higher",
-      "risk_percentile": 41.88,
-      "score_contribution": 18.85,
+      "risk_percentile": 36.91,
+      "score_contribution": 16.61,
       "source_links": [
         {
           "label": "Chicago Fed NFCI",
@@ -536,7 +538,7 @@
       "formula": "AI 估值壓力；正式來源接入後定義",
       "id": "valuation",
       "label": "AI 估值壓力",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 104,
       "missing_reason": "v1 尚未定義無付費來源的可比估值籃子",
       "model_roles": [],
@@ -558,7 +560,7 @@
       "formula": "AI 專屬融資成本；正式來源接入後定義",
       "id": "funding_cost",
       "label": "AI 融資成本",
-      "last_retrieved": "2026-08-12T10:19:31.314309+00:00",
+      "last_retrieved": "2026-08-13T09:51:44.679878+00:00",
       "minimum_history": 104,
       "missing_reason": "v1 先以 NFCI 作為廣義金融條件代理",
       "model_roles": [],
@@ -574,28 +576,29 @@
       "update_frequency": "weekly"
     }
   ],
-  "last_successful_update": "2026-08-12T10:19:31.314309+00:00",
+  "last_successful_update": "2026-08-13T09:51:44.679878+00:00",
   "missing_evidence": [
     "TOKEN_DEMAND_UNAVAILABLE",
     "EFFECTIVE_COMPUTE_UNAVAILABLE",
     "GPU_AVAILABILITY_UNAVAILABLE",
     "GPU_RENTAL_PRICE_UNAVAILABLE",
     "DATACENTER_POWER_UNAVAILABLE",
-    "AI_VALUATION_UNAVAILABLE"
+    "AI_VALUATION_UNAVAILABLE",
+    "AI_FUNDING_COST_UNAVAILABLE"
   ],
   "missing_symbols": [],
   "model": {
     "effective_date": "2026-08-12",
     "version": "financial-evidence-v1"
   },
-  "raw_state": "PRE_BREAK_FINANCIAL",
+  "raw_state": "WATCH_NOT_BREAKING",
   "reason_codes": [
     "STRUCTURAL_PRESSURE_ELEVATED",
     "PERSISTENCE_PENDING"
   ],
   "schema_version": 1,
   "source_dates": {
-    "nfci": "2026-07-31",
+    "nfci": "2026-08-07",
     "sec": "2026-07-31"
   },
   "source_links": [

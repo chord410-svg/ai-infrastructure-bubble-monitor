@@ -111,8 +111,23 @@ def _nfci_rows_as_of(rows, as_of_date):
     ]
 
 
+def _iso_week(value):
+    parsed = value if isinstance(value, date) else date.fromisoformat(str(value)[:10])
+    iso_year, iso_week, _ = parsed.isocalendar()
+    return iso_year, iso_week
+
+
 def _prior_state_history(history, as_of_date):
-    return [item for item in history if item.get("date", "") < as_of_date.isoformat()]
+    current_week = _iso_week(as_of_date)
+    by_week = {}
+    for item in history:
+        item_date = item.get("date")
+        if not item_date or item_date >= as_of_date.isoformat() or _iso_week(item_date) == current_week:
+            continue
+        week = _iso_week(item_date)
+        if week not in by_week or item_date > by_week[week].get("date", ""):
+            by_week[week] = item
+    return sorted(by_week.values(), key=lambda item: item["date"])
 
 
 def _merge_observations(existing, candidates):
@@ -281,7 +296,14 @@ def create_candidate(as_of, *, previous_history=None, previous_observations=None
     for item in compact:
         if item.get("date") == compact_record["date"] and item.get("model_version") not in (None, MODEL_VERSION):
             raise ValueError("model version cannot overwrite an existing date")
-    compact = [item for item in compact if item.get("date") != compact_record["date"]] + [compact_record]
+    current_week = _iso_week(as_of_date)
+    compact = [
+        item for item in compact
+        if not (
+            _iso_week(item.get("date")) == current_week
+            and item.get("model_version") in (None, MODEL_VERSION)
+        )
+    ] + [compact_record]
     compact.sort(key=lambda item: item["date"])
 
     observation_record = {

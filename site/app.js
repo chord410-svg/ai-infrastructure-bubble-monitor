@@ -224,6 +224,25 @@ function moduleEmptyState(items, hasAvailableItems = false) {
   return wrap;
 }
 
+function indicatorOverview(items) {
+  const section = el("section", "evidence-overview");
+  const heading = el("div", "evidence-overview-heading");
+  heading.append(el("p", "kicker", "ACTIVE EVIDENCE"), el("h3", "", `目前納入計分 · ${items.length} 項`));
+  section.append(heading);
+  const grid = el("div", "evidence-overview-grid");
+  items.forEach(item => {
+    const card = el("article", "evidence-overview-card");
+    card.append(el("p", "", item.label), el("strong", "", formatRaw(item)));
+    const contributions = (item.model_roles || [])
+      .filter(role => role.contribution != null)
+      .map(role => `${role.score === "structural" ? "結構" : "觸發"} +${role.contribution.toFixed(2)} 分`);
+    card.append(el("small", "", contributions.join(" · ") || "等待足夠歷史"));
+    grid.append(card);
+  });
+  section.append(grid);
+  return section;
+}
+
 function renderRailStatus(moduleId, available, planned) {
   const status = document.querySelector(`#rail-${moduleId}-status`);
   if (!status) return;
@@ -234,20 +253,34 @@ function renderRailStatus(moduleId, available, planned) {
 function renderIndicators(indicators) {
   const container = document.querySelector("#indicator-list");
   container.replaceChildren();
-  MODULES.forEach(module => {
-    const items = indicators.filter(item => item.module === module.id);
-    const details = el("details");
-    if (module.id === "investment") details.open = true;
-    const summary = el("summary");
-    summary.append(el("span", "", module.index), el("strong", "", module.label));
-    const availableItems = items.filter(item => item.status === "available");
-    const plannedItems = items.filter(item => item.status === "not_covered");
-    renderRailStatus(module.id, availableItems.length, items.length);
-    summary.append(el("em", "", availableItems.length ? `可取得 ${availableItems.length}/${items.length}` : "尚未涵蓋"));
-    details.append(summary);
-    if (availableItems.length) details.append(indicatorTable(availableItems));
-    if (plannedItems.length) details.append(moduleEmptyState(plannedItems, Boolean(availableItems.length)));
-    container.append(details);
+  const activeIndicators = indicators.filter(item => item.status === "available");
+  if (activeIndicators.length) container.append(indicatorOverview(activeIndicators));
+  const availableModules = MODULES.filter(module =>
+    indicators.some(item => item.module === module.id && item.status === "available")
+  );
+  const missingModules = MODULES.filter(module => !availableModules.includes(module));
+  const moduleGroups = [
+    { label: "已接入模組", modules: availableModules },
+    { label: "尚未接入模組", modules: missingModules },
+  ];
+  moduleGroups.forEach(group => {
+    if (!group.modules.length) return;
+    container.append(el("p", "evidence-group-label", group.label));
+    group.modules.forEach(module => {
+      const items = indicators.filter(item => item.module === module.id);
+      const details = el("details");
+      if (module.id === "investment") details.open = true;
+      const summary = el("summary");
+      summary.append(el("span", "", module.index), el("strong", "", module.label));
+      const availableItems = items.filter(item => item.status === "available");
+      const plannedItems = items.filter(item => item.status === "not_covered");
+      renderRailStatus(module.id, availableItems.length, items.length);
+      summary.append(el("em", "", availableItems.length ? `可取得 ${availableItems.length}/${items.length}` : "尚未涵蓋"));
+      details.append(summary);
+      if (availableItems.length) details.append(indicatorTable(availableItems));
+      if (plannedItems.length) details.append(moduleEmptyState(plannedItems, Boolean(availableItems.length)));
+      container.append(details);
+    });
   });
 }
 
@@ -262,21 +295,63 @@ function renderSources(links) {
   });
 }
 
+function isoWeekKey(value) {
+  const parsed = new Date(`${String(value).slice(0,10)}T00:00:00Z`);
+  const day = parsed.getUTCDay() || 7;
+  parsed.setUTCDate(parsed.getUTCDate() + 4 - day);
+  const year = parsed.getUTCFullYear();
+  const yearStart = new Date(Date.UTC(year, 0, 1));
+  const week = Math.ceil((((parsed - yearStart) / 86400000) + 1) / 7);
+  return `${year}-W${String(week).padStart(2, "0")}`;
+}
+
+function weeklyHistory(history) {
+  const byWeek = new Map();
+  [...history]
+    .sort((left, right) => String(left.as_of || left.date).localeCompare(String(right.as_of || right.date)))
+    .forEach(item => byWeek.set(isoWeekKey(item.date), item));
+  return [...byWeek.values()];
+}
+
+function renderSnapshotStatus(valid, fallback) {
+  const latest = valid.at(-1);
+  const previous = valid.at(-2);
+  const intro = el("p", "snapshot-intro", valid.length
+    ? `目前只有 ${valid.length} 個不同週的有效資料點；至少 3 週後才顯示趨勢線。`
+    : "尚無可計分的週資料點。");
+  fallback.replaceChildren(intro);
+  if (!latest) return;
+  const grid = el("div", "snapshot-grid");
+  [["結構壓力", "structural_pressure"], ["破裂觸發", "financial_break_trigger"]].forEach(([label, key]) => {
+    const card = el("article", "snapshot-card");
+    card.append(el("span", "", label), el("strong", "", formatScore(latest[key])));
+    const delta = previous ? latest[key] - previous[key] : null;
+    card.append(el("small", "", delta == null ? `截至 ${latest.date}` : `較前一週 ${delta >= 0 ? "+" : ""}${delta.toFixed(2)} 分`));
+    grid.append(card);
+  });
+  fallback.append(grid);
+}
+
 function drawTrend(history) {
-  const valid = history.filter(item => item.structural_pressure != null && item.financial_break_trigger != null).slice(-12);
+  const valid = weeklyHistory(history)
+    .filter(item => item.structural_pressure != null && item.financial_break_trigger != null)
+    .slice(-12);
   const canvas = document.querySelector("#trend-chart");
   const fallback = document.querySelector("#trend-fallback");
   const status = document.querySelector("#trend-status");
-  if (!valid.length) {
+  const legend = document.querySelector("#trend-legend");
+  if (valid.length < 3) {
     canvas.style.display = "none";
-    status.textContent = "尚無可計分的歷史快照。";
-    fallback.textContent = "歷史資料尚未建立。";
+    legend.hidden = true;
+    status.textContent = valid.length
+      ? `目前累積 ${valid.length} / 12 週；資料不足，暫不判讀趨勢。`
+      : "尚無可計分的歷史快照。";
+    renderSnapshotStatus(valid, fallback);
     return;
   }
-  status.textContent = valid.length === 1
-    ? "目前累積 1 / 12 週；至少 2 筆後才會形成折線。"
-    : `目前顯示最近 ${valid.length} / 12 週。`;
+  status.textContent = `目前顯示最近 ${valid.length} / 12 週。`;
   canvas.style.display = "block";
+  legend.hidden = false;
   fallback.replaceChildren();
   const table = el("table", "sr-only");
   valid.forEach(item => {
@@ -297,14 +372,14 @@ function drawTrend(history) {
   [["structural_pressure","#b66a00"],["financial_break_trigger","#0b7998"]].forEach(([key,color]) => {
     context.strokeStyle = color; context.lineWidth = 3; context.beginPath();
     valid.forEach((item,index) => {
-      const x = valid.length === 1 ? 461 : 42 + index * (838 / (valid.length - 1));
+      const x = 42 + index * (838 / (valid.length - 1));
       const y = 230 - item[key] * 2;
       index ? context.lineTo(x,y) : context.moveTo(x,y);
     });
     context.stroke();
     context.fillStyle = color;
     valid.forEach((item,index) => {
-      const x = valid.length === 1 ? 461 : 42 + index * (838 / (valid.length - 1));
+      const x = 42 + index * (838 / (valid.length - 1));
       const y = 230 - item[key] * 2;
       context.beginPath(); context.arc(x,y,4,0,Math.PI*2); context.fill();
     });

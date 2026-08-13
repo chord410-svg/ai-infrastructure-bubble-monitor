@@ -7,6 +7,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from src.update import _indicator_payloads, _merge_observations, _nfci_rows_as_of, _prior_state_history, _publish_bundle, publish_candidate, run_update
+from src.validate import validate_compact_history
 
 
 class UpdateTests(unittest.TestCase):
@@ -37,12 +38,17 @@ class UpdateTests(unittest.TestCase):
         self.assertEqual(_nfci_rows_as_of(rows, datetime(2026, 8, 13, tzinfo=timezone.utc).date())[-1]["date"], "2026-08-07")
         self.assertEqual(_nfci_rows_as_of(rows, datetime(2026, 8, 13, tzinfo=timezone.utc).date())[0]["date"], "2026-07-31")
 
-    def test_same_day_rerun_does_not_count_as_persistence_confirmation(self):
+    def test_same_week_rerun_does_not_count_as_persistence_confirmation(self):
         history = [
             {"date":"2026-08-05","raw_state":"WATCH_NOT_BREAKING"},
             {"date":"2026-08-12","raw_state":"PRE_BREAK_FINANCIAL"},
         ]
-        self.assertEqual(_prior_state_history(history, datetime(2026, 8, 12, tzinfo=timezone.utc).date()), history[:1])
+        self.assertEqual(_prior_state_history(history, datetime(2026, 8, 13, tzinfo=timezone.utc).date()), history[:1])
+
+    def test_compact_history_rejects_two_snapshots_in_one_iso_week(self):
+        history = [{"date":"2026-08-12"}, {"date":"2026-08-13"}]
+        with self.assertRaisesRegex(ValueError, "ISO week"):
+            validate_compact_history(history)
 
     def test_observation_history_preserves_same_date_across_model_versions(self):
         old = {"as_of":"2026-08-12T08:00:00+00:00","model_version":"v1","value":1}
@@ -61,7 +67,7 @@ class UpdateTests(unittest.TestCase):
 
     @patch("src.update.collect_nfci")
     @patch("src.update.collect_companyfacts")
-    def test_fixture_update_writes_valid_outputs_and_deduplicates_day(self, collect_sec, collect_nfci):
+    def test_fixture_update_writes_valid_outputs_and_deduplicates_week(self, collect_sec, collect_nfci):
         payload = json.loads(Path("tests/fixtures/sec_companyfacts.json").read_text(encoding="utf-8"))
         collect_sec.return_value = payload
         collect_nfci.return_value = (
@@ -88,9 +94,10 @@ class UpdateTests(unittest.TestCase):
                 self.assertIn(field, observation)
             self.assertFalse((root / "data/observations/by-indicator/self_funding_ratio").exists())
             self.assertFalse(obsolete.exists())
-            run_update(root, datetime(2026, 7, 31, 12, tzinfo=timezone.utc))
+            run_update(root, datetime(2026, 8, 1, 12, tzinfo=timezone.utc))
             history = json.loads((root / "site/data/history.json").read_text(encoding="utf-8"))
             self.assertEqual(len(history), 1)
+            self.assertEqual(history[0]["date"], "2026-08-01")
             self.assertEqual(history[0]["catalog_version"], packet["catalog_version"])
             self.assertEqual(history[0]["model_version"], packet["model"]["version"])
 

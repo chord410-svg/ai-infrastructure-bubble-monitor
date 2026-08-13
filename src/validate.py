@@ -85,6 +85,9 @@ def validate_compact_history(history):
     dates = [item.get("date") for item in history]
     if dates != sorted(dates) or len(dates) != len(set(dates)):
         raise ValueError("history dates must be sorted and unique")
+    weeks = [datetime.fromisoformat(value).date().isocalendar()[:2] for value in dates]
+    if len(weeks) != len(set(weeks)):
+        raise ValueError("history must contain at most one snapshot per ISO week")
 
 
 def validate_observation_history(history):

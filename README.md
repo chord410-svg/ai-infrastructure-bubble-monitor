@@ -35,6 +35,8 @@ V1 不直接測量 Token 總量、有效算力需求、GPU 租金與容量、資
 5. 只有全部通過才原子替換 `site/data` 與 `data/observations`。
 6. 再跑一次測試、提交驗證快照並部署同一份 `site/`。
 
+首頁趨勢與狀態持續性以 ISO 週為單位；同一週內的手動重跑會更新該週快照，不會被算成新的連續週期。少於三個不同週的有效快照時，網站只顯示目前分數，不畫趨勢線。
+
 啟用工作流程前，在 GitHub repository variables 新增 `SEC_USER_AGENT`，格式需包含專案或維護者名稱及真實聯絡信箱，例如 `ai-bubble-monitor/1.0 Name name@example.com`。接著在 Settings → Pages 選擇 GitHub Actions 作為來源。
 
 超過 14 天沒有成功更新時，首頁會顯示資料過期警告並暫停顯示兩個分數；不會把舊結果冒充當前判讀。來源資料更新頻率不同：SEC 財報按申報更新，NFCI 每週更新，兩者各自顯示資料日期。

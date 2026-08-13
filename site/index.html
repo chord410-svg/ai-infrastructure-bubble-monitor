@@ -86,7 +86,7 @@
     <section id="evidence" class="container section" aria-labelledby="indicator-heading">
       <div class="section-heading">
         <div><p class="kicker">EVIDENCE MAP</p><h2 id="indicator-heading">證據地圖</h2></div>
-        <p>每個分數都能一路追到原始數值、公式與官方來源。</p>
+        <p>先看目前真正納入計分的 5 項證據；尚未接入的資料集中放在後面，不與正式數值混在一起。</p>
       </div>
       <div id="indicator-list" class="evidence-list">
         <details>
@@ -119,6 +119,7 @@
       </div>
       <div class="trend-frame">
         <p id="trend-status" class="trend-status" role="status">尚無可計分的歷史快照。</p>
+        <div id="trend-legend" class="trend-legend" hidden><span class="structural">結構壓力</span><span class="trigger">破裂觸發</span></div>
         <canvas id="trend-chart" width="900" height="260" aria-label="結構壓力與破裂觸發趨勢圖"></canvas>
         <div id="trend-fallback" class="trend-empty">歷史資料尚未建立。</div>
       </div>

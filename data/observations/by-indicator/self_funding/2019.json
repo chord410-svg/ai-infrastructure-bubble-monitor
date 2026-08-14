@@ -9,7 +9,7 @@
     "quality_status": [
       "fallback_tag:capex"
     ],
-    "retrieved_at": "2026-08-14T09:29:25.162790+00:00",
+    "retrieved_at": "2026-08-14T11:03:10.764351+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
@@ -29,7 +29,7 @@
     "quality_status": [
       "fallback_tag:capex"
     ],
-    "retrieved_at": "2026-08-14T09:29:25.162790+00:00",
+    "retrieved_at": "2026-08-14T11:03:10.764351+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
@@ -49,7 +49,7 @@
     "quality_status": [
       "fallback_tag:capex"
     ],
-    "retrieved_at": "2026-08-14T09:29:25.162790+00:00",
+    "retrieved_at": "2026-08-14T11:03:10.764351+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
@@ -69,7 +69,7 @@
     "quality_status": [
       "fallback_tag:capex"
     ],
-    "retrieved_at": "2026-08-14T09:29:25.162790+00:00",
+    "retrieved_at": "2026-08-14T11:03:10.764351+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",

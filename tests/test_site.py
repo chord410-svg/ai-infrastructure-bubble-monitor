@@ -23,6 +23,14 @@ class SiteTests(unittest.TestCase):
         self.assertGreaterEqual(html.count("<details"), 4)
         self.assertGreaterEqual(html.count("<summary"), 4)
 
+    def test_tablet_layout_fills_score_row_and_divides_evidence_modules(self):
+        css = Path("site/styles.css").read_text(encoding="utf-8")
+        self.assertIn("@media (min-width: 721px) and (max-width: 980px)", css)
+        self.assertIn(".status-banner { grid-template-columns: auto 1fr; }", css)
+        self.assertIn(".score-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }", css)
+        self.assertIn(".causal-rail li:nth-child(-n + 2)", css)
+        self.assertIn("border-bottom: 1px solid var(--line)", css)
+
     def test_site_uses_local_assets_and_no_fabricated_scores(self):
         html = Path("site/index.html").read_text(encoding="utf-8")
         self.assertNotIn("https://cdn.", html)

@@ -1,9 +1,9 @@
 [
   {
-    "as_of": "2026-08-13T10:43:23.536976+00:00",
+    "as_of": "2026-08-14T09:29:25.162790+00:00",
     "catalog_version": 1,
     "confidence": 1.0,
-    "date": "2026-08-13",
+    "date": "2026-08-14",
     "financial_break_trigger": 43.28,
     "model_version": "financial-evidence-v1",
     "raw_state": "WATCH_NOT_BREAKING",

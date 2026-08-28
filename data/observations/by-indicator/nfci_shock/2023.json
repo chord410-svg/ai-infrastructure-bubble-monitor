@@ -9,12 +9,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.241
+    "value": -0.245
   },
   {
     "calculation_as_of": "2023-01-19T12:30:00+00:00",
@@ -26,12 +26,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.266
+    "value": -0.27
   },
   {
     "calculation_as_of": "2023-01-26T12:30:00+00:00",
@@ -43,12 +43,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.287
+    "value": -0.29
   },
   {
     "calculation_as_of": "2023-02-02T12:30:00+00:00",
@@ -60,12 +60,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.304
+    "value": -0.307
   },
   {
     "calculation_as_of": "2023-02-09T12:30:00+00:00",
@@ -77,12 +77,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.312
+    "value": -0.314
   },
   {
     "calculation_as_of": "2023-02-16T12:30:00+00:00",
@@ -94,12 +94,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.308
+    "value": -0.31
   },
   {
     "calculation_as_of": "2023-02-23T12:30:00+00:00",
@@ -111,12 +111,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.293
+    "value": -0.295
   },
   {
     "calculation_as_of": "2023-03-02T12:30:00+00:00",
@@ -128,12 +128,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.267
+    "value": -0.27
   },
   {
     "calculation_as_of": "2023-03-09T12:30:00+00:00",
@@ -145,12 +145,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.235
+    "value": -0.239
   },
   {
     "calculation_as_of": "2023-03-16T12:30:00+00:00",
@@ -162,12 +162,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.202
+    "value": -0.207
   },
   {
     "calculation_as_of": "2023-03-23T12:30:00+00:00",
@@ -179,12 +179,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.17
+    "value": -0.176
   },
   {
     "calculation_as_of": "2023-03-30T12:30:00+00:00",
@@ -196,12 +196,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.151
+    "value": -0.157
   },
   {
     "calculation_as_of": "2023-04-06T12:30:00+00:00",
@@ -213,12 +213,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.147
+    "value": -0.153
   },
   {
     "calculation_as_of": "2023-04-13T12:30:00+00:00",
@@ -230,12 +230,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.15
+    "value": -0.156
   },
   {
     "calculation_as_of": "2023-04-20T12:30:00+00:00",
@@ -247,12 +247,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.161
+    "value": -0.167
   },
   {
     "calculation_as_of": "2023-04-27T12:30:00+00:00",
@@ -264,12 +264,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.175
+    "value": -0.18
   },
   {
     "calculation_as_of": "2023-05-04T12:30:00+00:00",
@@ -281,12 +281,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.187
+    "value": -0.191
   },
   {
     "calculation_as_of": "2023-05-11T12:30:00+00:00",
@@ -298,12 +298,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.196
+    "value": -0.2
   },
   {
     "calculation_as_of": "2023-05-18T12:30:00+00:00",
@@ -315,12 +315,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.204
+    "value": -0.207
   },
   {
     "calculation_as_of": "2023-05-25T12:30:00+00:00",
@@ -332,12 +332,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.209
+    "value": -0.211
   },
   {
     "calculation_as_of": "2023-06-01T12:30:00+00:00",
@@ -349,12 +349,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.212
+    "value": -0.214
   },
   {
     "calculation_as_of": "2023-06-08T12:30:00+00:00",
@@ -366,12 +366,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.214
+    "value": -0.215
   },
   {
     "calculation_as_of": "2023-06-15T12:30:00+00:00",
@@ -383,12 +383,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.215
+    "value": -0.217
   },
   {
     "calculation_as_of": "2023-06-22T12:30:00+00:00",
@@ -400,12 +400,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.217
+    "value": -0.218
   },
   {
     "calculation_as_of": "2023-06-29T12:30:00+00:00",
@@ -417,12 +417,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.221
+    "value": -0.222
   },
   {
     "calculation_as_of": "2023-07-06T12:30:00+00:00",
@@ -434,7 +434,7 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
@@ -451,12 +451,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.236
+    "value": -0.237
   },
   {
     "calculation_as_of": "2023-07-20T12:30:00+00:00",
@@ -468,12 +468,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.249
+    "value": -0.25
   },
   {
     "calculation_as_of": "2023-07-27T12:30:00+00:00",
@@ -485,7 +485,7 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
@@ -502,7 +502,7 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
@@ -519,12 +519,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.297
+    "value": -0.298
   },
   {
     "calculation_as_of": "2023-08-17T12:30:00+00:00",
@@ -536,7 +536,7 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
@@ -553,12 +553,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.325
+    "value": -0.326
   },
   {
     "calculation_as_of": "2023-08-31T12:30:00+00:00",
@@ -570,12 +570,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.333
+    "value": -0.334
   },
   {
     "calculation_as_of": "2023-09-07T12:30:00+00:00",
@@ -587,12 +587,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.338
+    "value": -0.34
   },
   {
     "calculation_as_of": "2023-09-14T12:30:00+00:00",
@@ -604,12 +604,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.338
+    "value": -0.339
   },
   {
     "calculation_as_of": "2023-09-21T12:30:00+00:00",
@@ -621,12 +621,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.333
+    "value": -0.334
   },
   {
     "calculation_as_of": "2023-09-28T12:30:00+00:00",
@@ -638,12 +638,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.323
+    "value": -0.325
   },
   {
     "calculation_as_of": "2023-10-05T12:30:00+00:00",
@@ -655,12 +655,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.311
+    "value": -0.313
   },
   {
     "calculation_as_of": "2023-10-12T12:30:00+00:00",
@@ -672,12 +672,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.299
+    "value": -0.302
   },
   {
     "calculation_as_of": "2023-10-19T12:30:00+00:00",
@@ -689,12 +689,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.29
+    "value": -0.293
   },
   {
     "calculation_as_of": "2023-10-26T12:30:00+00:00",
@@ -706,12 +706,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.284
+    "value": -0.287
   },
   {
     "calculation_as_of": "2023-11-02T12:30:00+00:00",
@@ -723,12 +723,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.283
+    "value": -0.286
   },
   {
     "calculation_as_of": "2023-11-09T12:30:00+00:00",
@@ -740,12 +740,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.288
+    "value": -0.291
   },
   {
     "calculation_as_of": "2023-11-16T12:30:00+00:00",
@@ -757,12 +757,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.297
+    "value": -0.299
   },
   {
     "calculation_as_of": "2023-11-23T12:30:00+00:00",
@@ -774,12 +774,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.308
+    "value": -0.31
   },
   {
     "calculation_as_of": "2023-11-30T12:30:00+00:00",
@@ -791,12 +791,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.32
+    "value": -0.321
   },
   {
     "calculation_as_of": "2023-12-07T12:30:00+00:00",
@@ -808,7 +808,7 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
@@ -825,7 +825,7 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
@@ -842,7 +842,7 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
@@ -859,12 +859,12 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.359
+    "value": -0.358
   },
   {
     "calculation_as_of": "2024-01-04T12:30:00+00:00",
@@ -876,11 +876,11 @@
     "quality_status": [
       "official_csv"
     ],
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00",
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
     "source_urls": [
       "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv"
     ],
     "unit": "index",
-    "value": -0.367
+    "value": -0.366
   }
 ]

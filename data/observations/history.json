@@ -194,7 +194,7 @@
       "self_funding_ratio": 2.2979897399188736
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2019-05-15T23:59:59+00:00",
@@ -391,7 +391,7 @@
       "self_funding_ratio": 2.4851882741791
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2019-08-15T23:59:59+00:00",
@@ -586,7 +586,7 @@
       "self_funding_ratio": 2.6031798859355852
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2019-11-15T23:59:59+00:00",
@@ -781,7 +781,7 @@
       "self_funding_ratio": 2.549810515311234
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2020-02-28T23:59:59+00:00",
@@ -976,7 +976,7 @@
       "self_funding_ratio": 2.6568631710036636
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2020-05-15T23:59:59+00:00",
@@ -1171,7 +1171,7 @@
       "self_funding_ratio": 2.5359509431945706
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2020-08-15T23:59:59+00:00",
@@ -1366,7 +1366,7 @@
       "self_funding_ratio": 2.5597288360632717
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2021-02-28T23:59:59+00:00",
@@ -1565,7 +1565,7 @@
       "self_funding_ratio": 2.5015137498948783
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2021-11-15T23:59:59+00:00",
@@ -1764,7 +1764,7 @@
       "self_funding_ratio": 2.330005916025764
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2022-02-28T23:59:59+00:00",
@@ -1963,7 +1963,7 @@
       "self_funding_ratio": 2.193126549311243
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2022-05-15T23:59:59+00:00",
@@ -2162,7 +2162,7 @@
       "self_funding_ratio": 2.090023523512451
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2022-08-15T23:59:59+00:00",
@@ -2361,7 +2361,7 @@
       "self_funding_ratio": 1.9616524168289173
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2023-02-28T23:59:59+00:00",
@@ -2558,7 +2558,7 @@
       "self_funding_ratio": 1.8047300913902822
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2024-02-28T23:59:59+00:00",
@@ -2755,7 +2755,7 @@
       "self_funding_ratio": 2.4446041994465846
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2024-05-15T23:59:59+00:00",
@@ -2952,7 +2952,7 @@
       "self_funding_ratio": 2.488820726019063
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2024-08-15T23:59:59+00:00",
@@ -3149,7 +3149,7 @@
       "self_funding_ratio": 2.314420069774531
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2024-11-15T23:59:59+00:00",
@@ -3346,7 +3346,7 @@
       "self_funding_ratio": 2.123993769157329
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2025-02-28T23:59:59+00:00",
@@ -3541,7 +3541,7 @@
       "self_funding_ratio": 2.00614429233343
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2026-02-28T23:59:59+00:00",
@@ -3739,7 +3739,7 @@
       "self_funding_ratio": 1.54376135151881
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2026-05-15T23:59:59+00:00",
@@ -3936,7 +3936,7 @@
       "self_funding_ratio": 1.4220475271895072
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2026-08-12T08:00:00+00:00",
@@ -5547,7 +5547,7 @@
       "self_funding_ratio": 1.2929510889890994
     },
     "model_version": "financial-evidence-v1",
-    "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   },
   {
     "as_of": "2026-08-21T09:00:22.798604+00:00",
@@ -5750,5 +5750,207 @@
       "value": -0.559
     },
     "retrieved_at": "2026-08-21T09:00:22.798604+00:00"
+  },
+  {
+    "as_of": "2026-08-28T20:13:06.426307+00:00",
+    "catalog_version": 1,
+    "companies": {
+      "AMZN": {
+        "capex_ttm": 173028000000.0,
+        "capex_ttm_prior": 107656000000.0,
+        "cash": 78213000000.0,
+        "cash_prior": 57741000000.0,
+        "debt": 132224000000.0,
+        "debt_prior": 55723000000.0,
+        "ocf_ttm": 161403000000.0,
+        "ocf_ttm_prior": 121137000000.0,
+        "period_end": "2026-06-30",
+        "published_at": "2026-07-31",
+        "quality_flags": [
+          "fallback_tag:capex"
+        ],
+        "receivables": 88092000000.0,
+        "receivables_prior": 57415000000.0,
+        "revenue_ttm": 775680000000.0,
+        "revenue_ttm_prior": 670038000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquireProductiveAssets"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "AMZN"
+      },
+      "GOOGL": {
+        "capex_ttm": 132402000000.0,
+        "capex_ttm_prior": 66980000000.0,
+        "cash": 55911000000.0,
+        "cash_prior": 21036000000.0,
+        "debt": 100164000000.0,
+        "debt_prior": 24607000000.0,
+        "ocf_ttm": 185675000000.0,
+        "ocf_ttm_prior": 133708000000.0,
+        "period_end": "2026-06-30",
+        "published_at": "2026-07-23",
+        "quality_flags": [
+          "fallback_tag:revenue"
+        ],
+        "receivables": 69175000000.0,
+        "receivables_prior": 55048000000.0,
+        "revenue_ttm": 445867000000.0,
+        "revenue_ttm_prior": 371399000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "Revenues"
+          ]
+        },
+        "symbol": "GOOGL"
+      },
+      "META": {
+        "capex_ttm": 89325000000.0,
+        "capex_ttm_prior": 52162000000.0,
+        "cash": 15462000000.0,
+        "cash_prior": 12005000000.0,
+        "debt": 83664000000.0,
+        "debt_prior": 28832000000.0,
+        "ocf_ttm": 130301000000.0,
+        "ocf_ttm_prior": 102299000000.0,
+        "period_end": "2026-06-30",
+        "published_at": "2026-07-30",
+        "quality_flags": [],
+        "receivables": 21752000000.0,
+        "receivables_prior": 16561000000.0,
+        "revenue_ttm": 228247000000.0,
+        "revenue_ttm_prior": 178804000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "none"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "META"
+      },
+      "MSFT": {
+        "capex_ttm": 115948000000.0,
+        "capex_ttm_prior": 64551000000.0,
+        "cash": 20935000000.0,
+        "cash_prior": 30242000000.0,
+        "debt": 40294000000.0,
+        "debt_prior": 43151000000.0,
+        "ocf_ttm": 182935000000.0,
+        "ocf_ttm_prior": 136162000000.0,
+        "period_end": "2026-06-30",
+        "published_at": "2026-07-29",
+        "quality_flags": [],
+        "receivables": 80876000000.0,
+        "receivables_prior": 69905000000.0,
+        "revenue_ttm": 331839000000.0,
+        "revenue_ttm_prior": 281724000000.0,
+        "selected_tags": {
+          "capex": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "cash": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "debt_current": [
+            "LongTermDebtCurrent"
+          ],
+          "debt_noncurrent": [
+            "LongTermDebtNoncurrent"
+          ],
+          "ocf": [
+            "NetCashProvidedByUsedInOperatingActivities"
+          ],
+          "receivables": [
+            "AccountsReceivableNetCurrent"
+          ],
+          "revenue": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ]
+        },
+        "symbol": "MSFT"
+      }
+    },
+    "indicators": {
+      "aggregate_capex_ttm": 510703000000.0,
+      "aggregate_capex_ttm_prior": 291349000000.0,
+      "aggregate_net_debt": 185825000000.0,
+      "aggregate_net_debt_prior": 31289000000.0,
+      "aggregate_ocf_ttm": 660314000000.0,
+      "aggregate_ocf_ttm_prior": 493306000000.0,
+      "aggregate_receivables": 259895000000.0,
+      "aggregate_receivables_prior": 198929000000.0,
+      "aggregate_revenue_ttm": 1781633000000.0,
+      "aggregate_revenue_ttm_prior": 1501965000000.0,
+      "capex_growth": 0.7528908628483366,
+      "capex_growth_gap": 0.41434237570242716,
+      "net_debt_change": 154536000000.0,
+      "net_debt_change_funding_ratio": 0.3025946587351161,
+      "ocf_growth": 0.33854848714590946,
+      "receivables_growth": 0.30647115302444594,
+      "receivables_growth_gap": 0.12026974353754039,
+      "revenue_growth": 0.18620140948690556,
+      "self_funding_ratio": 1.2929510889890994
+    },
+    "model_version": "financial-evidence-v1",
+    "nfci": {
+      "date": "2026-08-21",
+      "source_url": "https://api.data.chicagofed.org/NFCI/nfci-data-series-csv.csv",
+      "value": -0.566
+    },
+    "retrieved_at": "2026-08-28T20:13:06.426307+00:00"
   }
 ]

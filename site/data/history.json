@@ -20,5 +20,16 @@
     "raw_state": "WATCH_NOT_BREAKING",
     "state": "WATCH_NOT_BREAKING",
     "structural_pressure": 97.62
+  },
+  {
+    "as_of": "2026-08-28T20:13:06.426307+00:00",
+    "catalog_version": 1,
+    "confidence": 1.0,
+    "date": "2026-08-28",
+    "financial_break_trigger": 42.27,
+    "model_version": "financial-evidence-v1",
+    "raw_state": "WATCH_NOT_BREAKING",
+    "state": "WATCH_NOT_BREAKING",
+    "structural_pressure": 97.62
   }
 ]

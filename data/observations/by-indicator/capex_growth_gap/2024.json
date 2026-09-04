@@ -10,7 +10,7 @@
       "fallback_tag:capex",
       "fallback_tag:debt_noncurrent"
     ],
-    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
+    "retrieved_at": "2026-09-04T12:45:01.548215+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
@@ -31,7 +31,7 @@
       "fallback_tag:capex",
       "fallback_tag:debt_noncurrent"
     ],
-    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
+    "retrieved_at": "2026-09-04T12:45:01.548215+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
@@ -52,7 +52,7 @@
       "fallback_tag:capex",
       "fallback_tag:debt_noncurrent"
     ],
-    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
+    "retrieved_at": "2026-09-04T12:45:01.548215+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
@@ -73,7 +73,7 @@
       "fallback_tag:capex",
       "fallback_tag:debt_noncurrent"
     ],
-    "retrieved_at": "2026-08-28T20:13:06.426307+00:00",
+    "retrieved_at": "2026-09-04T12:45:01.548215+00:00",
     "source_urls": [
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
       "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",

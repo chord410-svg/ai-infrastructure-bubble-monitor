@@ -86,5 +86,16 @@
     "raw_state": "PRE_BREAK_FINANCIAL",
     "state": "PRE_BREAK_FINANCIAL",
     "structural_pressure": 97.62
+  },
+  {
+    "as_of": "2026-10-09T15:20:03.000697+00:00",
+    "catalog_version": 1,
+    "confidence": 1.0,
+    "date": "2026-10-09",
+    "financial_break_trigger": 60.15,
+    "model_version": "financial-evidence-v1",
+    "raw_state": "PRE_BREAK_FINANCIAL",
+    "state": "PRE_BREAK_FINANCIAL",
+    "structural_pressure": 97.62
   }
 ]
